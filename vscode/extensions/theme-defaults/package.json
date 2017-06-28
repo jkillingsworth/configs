@@ -41,6 +41,12 @@
 				"label": "High Contrast",
 				"uiTheme": "hc-black",
 				"path": "./themes/hc_black.json"
+			},
+			{
+				"id": "Custom Dark",
+				"label": "Dark (Custom)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark_custom.json"
 			}
 		],
 		"iconThemes": [

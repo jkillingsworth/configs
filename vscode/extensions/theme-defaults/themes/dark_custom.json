@@ -1,0 +1,19 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "Customized (Jim)",
+	"include": "./dark_vs.json",
+	"tokenColors": [
+		{
+			"scope": "comment",
+			"settings": {
+				"foreground": "#606060"
+			}
+		},
+		{
+			"scope": "string",
+			"settings": {
+				"foreground": "#c080c0"
+			}
+		}
+	]
+}
