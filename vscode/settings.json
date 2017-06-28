@@ -1,0 +1,12 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "debug.internalConsoleOptions": "openOnSessionStart",
+    "editor.cursorStyle": "line-thin",
+    "editor.fontSize": 13,
+    "editor.lineNumbers": "off",
+    "editor.renderIndentGuides": true,
+    "editor.renderLineHighlight": "none",
+    "editor.renderWhitespace": "none",
+    "editor.roundedSelection": false,
+    "window.zoomLevel": 0
+}
