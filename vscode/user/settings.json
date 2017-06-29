@@ -8,6 +8,7 @@
     "editor.renderLineHighlight": "none",
     "editor.renderWhitespace": "none",
     "editor.roundedSelection": false,
+    "go.toolsGopath": "C:\\Go\\tools\\vscode",
     "window.zoomLevel": 0,
     "workbench.colorCustomizations": {
         "editorBracketMatch.background": "#264f78",
