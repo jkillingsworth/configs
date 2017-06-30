@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Console]
+"CursorSize"=dword:00000001
+"FaceName"="Consolas"
+"FontFamily"=dword:00000036
+"FontSize"=dword:000f0000
+"InsertMode"=dword:00000001
+"QuickEdit"=dword:00000000
+"ScreenBufferSize"=dword:012c0078
+"WindowSize"=dword:001e0078
