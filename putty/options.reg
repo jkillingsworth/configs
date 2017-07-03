@@ -8,5 +8,6 @@ Windows Registry Editor Version 5.00
 "FontHeight"=dword:0000000a
 "FullScreenOnAltEnter"=dword:00000001
 "MouseIsXterm"=dword:00000002
+"NoApplicationKeys"=dword:00000001
 "TermHeight"=dword:0000001e
 "TermWidth"=dword:00000078
