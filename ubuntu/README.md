@@ -28,7 +28,7 @@ Edit it to look like this:
 
 Append the following line to the `/etc/fstab` file:
 
-    //hostname/share /mnt cifs username=xxxxxxxx,password=xxxxxxxx 0 0
+    //hostname/share /mnt cifs uid=xxxx,gid=xxxx,username=xxxxxxxx,password=xxxxxxxx 0 0
 
 You can use `\040` for space characters if your username contains spaces.
 
