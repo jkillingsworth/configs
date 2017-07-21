@@ -2,7 +2,7 @@
 {
     "debug.internalConsoleOptions": "openOnSessionStart",
     "editor.cursorStyle": "line-thin",
-    "editor.fontSize": 13,
+    "editor.fontSize": 12.5,
     "editor.lineNumbers": "off",
     "editor.renderIndentGuides": true,
     "editor.renderLineHighlight": "none",
