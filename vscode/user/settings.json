@@ -11,8 +11,8 @@
     "go.toolsGopath": "C:\\Go\\tools\\vscode",
     "window.zoomLevel": 0,
     "workbench.colorCustomizations": {
-        "editorBracketMatch.background": "#264f78",
-        "editorBracketMatch.border": "#264f78",
+        "editorBracketMatch.background": "#404040",
+        "editorBracketMatch.border": "#404040",
         "editorError.foreground": "#ff0000e0",
         "editorWarning.foreground": "#ffff00e0",
         "tab.activeBackground": "#ffff0020"
