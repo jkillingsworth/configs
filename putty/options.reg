@@ -5,7 +5,7 @@ Windows Registry Editor Version 5.00
 "BlinkCur"=dword:00000001
 "CurType"=dword:00000001
 "Font"="Consolas"
-"FontHeight"=dword:0000000a
+"FontHeight"=dword:00000009
 "FullScreenOnAltEnter"=dword:00000001
 "MouseIsXterm"=dword:00000002
 "NoApplicationKeys"=dword:00000001
