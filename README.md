@@ -1,3 +1,3 @@
 ## Overview
 
-This is a collection of configurations and settings.
+These are my personal configurations and settings.
