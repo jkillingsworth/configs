@@ -2,22 +2,22 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\msys2_MINGW32]
 @="MSYS2 Bash (MINGW32)"
-"Icon"="C:\\Bin\\msys64\\terminal.ico"
+"Icon"="C:\\opt\\msys64\\terminal.ico"
 "Extended"=""
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\msys2_MINGW32\command]
-@="C:\\Bin\\msys64\\usr\\bin\\mintty.exe -i /terminal.ico -t MSYS2 /bin/env CHERE_INVOKING=1 MSYSTEM=MINGW32 MSYS2_PATH_TYPE=inherit /usr/bin/bash --login"
+@="C:\\opt\\msys64\\usr\\bin\\mintty.exe -i /terminal.ico -t MSYS2 /bin/env CHERE_INVOKING=1 MSYSTEM=MINGW32 MSYS2_PATH_TYPE=inherit /usr/bin/bash --login"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\msys2_MINGW64]
 @="MSYS2 Bash (MINGW64)"
-"Icon"="C:\\Bin\\msys64\\terminal.ico"
+"Icon"="C:\\opt\\msys64\\terminal.ico"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\msys2_MINGW64\command]
-@="C:\\Bin\\msys64\\usr\\bin\\mintty.exe -i /terminal.ico -t MSYS2 /bin/env CHERE_INVOKING=1 MSYSTEM=MINGW64 MSYS2_PATH_TYPE=inherit /usr/bin/bash --login"
+@="C:\\opt\\msys64\\usr\\bin\\mintty.exe -i /terminal.ico -t MSYS2 /bin/env CHERE_INVOKING=1 MSYSTEM=MINGW64 MSYS2_PATH_TYPE=inherit /usr/bin/bash --login"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\msys2_MSYS]
 @="MSYS2 Bash (MSYS)"
-"Icon"="C:\\Bin\\msys64\\terminal.ico"
+"Icon"="C:\\opt\\msys64\\terminal.ico"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\msys2_MSYS\command]
-@="C:\\Bin\\msys64\\usr\\bin\\mintty.exe -i /terminal.ico -t MSYS2 /bin/env CHERE_INVOKING=1 MSYSTEM=MSYS /usr/bin/bash --login"
+@="C:\\opt\\msys64\\usr\\bin\\mintty.exe -i /terminal.ico -t MSYS2 /bin/env CHERE_INVOKING=1 MSYSTEM=MSYS /usr/bin/bash --login"
