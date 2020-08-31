@@ -1,0 +1,7 @@
+[user]
+	name = Jim Killingsworth
+	email = jkillingsworth@gmail.com
+[core]
+	autocrlf = true
+[rebase]
+	autosquash = true
