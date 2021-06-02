@@ -5,3 +5,5 @@
 	autocrlf = true
 [rebase]
 	autosquash = true
+[init]
+	defaultBranch = master
