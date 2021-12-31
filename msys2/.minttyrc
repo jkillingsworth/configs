@@ -9,6 +9,7 @@ CopyOnSelect=no
 CtrlExchangeShift=yes
 CtrlShiftShortcuts=yes
 CursorType=underscore
+KeyFunctions=C+Break:break
 MiddleClickAction=void
 
 Black=0,0,0
