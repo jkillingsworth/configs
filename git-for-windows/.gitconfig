@@ -1,0 +1,14 @@
+[gui]
+	fontdiff = -family Consolas -size 10 -weight normal -slant roman -underline 0 -overstrike 0
+	encoding = utf-8
+[user]
+	name = Jim Killingsworth
+	email = jkillingsworth@gmail.com
+[core]
+	autocrlf = true
+[rebase]
+	autosquash = true
+[init]
+	defaultBranch = master
+[credential]
+	helper = store
