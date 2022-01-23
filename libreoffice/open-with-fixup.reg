@@ -1,0 +1,31 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\The Document Foundation\LibreOffice\7.2\Capabilities\FileAssociations]
+".csv"=-
+".htm"=-
+".html"=-
+".rtf"=-
+".txt"=-
+".xml"=-
+
+[HKEY_CLASSES_ROOT\.csv\OpenWithProgIDs]
+"soffice.StarCalcDocument.6"=-
+
+[HKEY_CLASSES_ROOT\.htm\OpenWithProgIDs]
+"soffice.StarCalcDocument.6"=-
+"soffice.StarWriterDocument.6"=-
+
+[HKEY_CLASSES_ROOT\.html\OpenWithProgIDs]
+"soffice.StarCalcDocument.6"=-
+"soffice.StarWriterDocument.6"=-
+
+[HKEY_CLASSES_ROOT\.rtf\OpenWithProgIDs]
+"soffice.StarCalcDocument.6"=-
+
+[HKEY_CLASSES_ROOT\.txt\OpenWithProgIDs]
+"soffice.StarCalcDocument.6"=-
+"soffice.StarWriterDocument.6"=-
+
+[HKEY_CLASSES_ROOT\.xml\OpenWithProgIDs]
+"soffice.StarCalcDocument.6"=-
+"soffice.StarWriterDocument.6"=-
