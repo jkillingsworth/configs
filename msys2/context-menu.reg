@@ -1,23 +1,65 @@
 Windows Registry Editor Version 5.00
 
-[HKEY_CLASSES_ROOT\Directory\Background\shell\msys2_MINGW32]
-@="MSYS2 Bash (MINGW32)"
-"Icon"="C:\\opt\\msys64\\terminal.ico"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\msys2_01_MINGW32]
+@="&MSYS2 Bash (MINGW32)"
 "Extended"=""
+"Icon"="C:\\opt\\msys64\\terminal.ico"
 
-[HKEY_CLASSES_ROOT\Directory\Background\shell\msys2_MINGW32\command]
+[HKEY_CLASSES_ROOT\Directory\Background\shell\msys2_02_MINGW64]
+@="&MSYS2 Bash (MINGW64)"
+"Extended"=-
+"Icon"="C:\\opt\\msys64\\terminal.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\msys2_03_UCRT64]
+@="&MSYS2 Bash (UCRT64)"
+"Extended"=""
+"Icon"="C:\\opt\\msys64\\terminal.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\msys2_04_MSYS]
+@="&MSYS2 Bash (MSYS)"
+"Extended"=-
+"Icon"="C:\\opt\\msys64\\terminal.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\msys2_01_MINGW32\command]
 @="C:\\opt\\msys64\\usr\\bin\\mintty.exe -i /terminal.ico -t MSYS2 /bin/env CHERE_INVOKING=1 MSYSTEM=MINGW32 MSYS2_PATH_TYPE=inherit /usr/bin/bash --login"
 
-[HKEY_CLASSES_ROOT\Directory\Background\shell\msys2_MINGW64]
-@="MSYS2 Bash (MINGW64)"
-"Icon"="C:\\opt\\msys64\\terminal.ico"
-
-[HKEY_CLASSES_ROOT\Directory\Background\shell\msys2_MINGW64\command]
+[HKEY_CLASSES_ROOT\Directory\Background\shell\msys2_02_MINGW64\command]
 @="C:\\opt\\msys64\\usr\\bin\\mintty.exe -i /terminal.ico -t MSYS2 /bin/env CHERE_INVOKING=1 MSYSTEM=MINGW64 MSYS2_PATH_TYPE=inherit /usr/bin/bash --login"
 
-[HKEY_CLASSES_ROOT\Directory\Background\shell\msys2_MSYS]
-@="MSYS2 Bash (MSYS)"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\msys2_03_UCRT64\command]
+@="C:\\opt\\msys64\\usr\\bin\\mintty.exe -i /terminal.ico -t MSYS2 /bin/env CHERE_INVOKING=1 MSYSTEM=UCRT64 MSYS2_PATH_TYPE=inherit /usr/bin/bash --login"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\msys2_04_MSYS\command]
+@="C:\\opt\\msys64\\usr\\bin\\mintty.exe -i /terminal.ico -t MSYS2 /bin/env CHERE_INVOKING=1 MSYSTEM=MSYS /usr/bin/bash --login"
+
+[HKEY_CLASSES_ROOT\Directory\shell\msys2_01_MINGW32]
+@="&MSYS2 Bash (MINGW32)"
+"Extended"=""
 "Icon"="C:\\opt\\msys64\\terminal.ico"
 
-[HKEY_CLASSES_ROOT\Directory\Background\shell\msys2_MSYS\command]
-@="C:\\opt\\msys64\\usr\\bin\\mintty.exe -i /terminal.ico -t MSYS2 /bin/env CHERE_INVOKING=1 MSYSTEM=MSYS /usr/bin/bash --login"
+[HKEY_CLASSES_ROOT\Directory\shell\msys2_02_MINGW64]
+@="&MSYS2 Bash (MINGW64)"
+"Extended"=-
+"Icon"="C:\\opt\\msys64\\terminal.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\msys2_03_UCRT64]
+@="&MSYS2 Bash (UCRT64)"
+"Extended"=""
+"Icon"="C:\\opt\\msys64\\terminal.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\msys2_04_MSYS]
+@="&MSYS2 Bash (MSYS)"
+"Extended"=-
+"Icon"="C:\\opt\\msys64\\terminal.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\msys2_01_MINGW32\command]
+@="C:\\opt\\msys64\\usr\\bin\\mintty.exe --dir='%1' -i /terminal.ico -t MSYS2 /bin/env CHERE_INVOKING=1 MSYSTEM=MINGW32 MSYS2_PATH_TYPE=inherit /usr/bin/bash --login"
+
+[HKEY_CLASSES_ROOT\Directory\shell\msys2_02_MINGW64\command]
+@="C:\\opt\\msys64\\usr\\bin\\mintty.exe --dir='%1' -i /terminal.ico -t MSYS2 /bin/env CHERE_INVOKING=1 MSYSTEM=MINGW64 MSYS2_PATH_TYPE=inherit /usr/bin/bash --login"
+
+[HKEY_CLASSES_ROOT\Directory\shell\msys2_03_UCRT64\command]
+@="C:\\opt\\msys64\\usr\\bin\\mintty.exe --dir='%1' -i /terminal.ico -t MSYS2 /bin/env CHERE_INVOKING=1 MSYSTEM=UCRT64 MSYS2_PATH_TYPE=inherit /usr/bin/bash --login"
+
+[HKEY_CLASSES_ROOT\Directory\shell\msys2_04_MSYS\command]
+@="C:\\opt\\msys64\\usr\\bin\\mintty.exe --dir='%1' -i /terminal.ico -t MSYS2 /bin/env CHERE_INVOKING=1 MSYSTEM=MSYS /usr/bin/bash --login"

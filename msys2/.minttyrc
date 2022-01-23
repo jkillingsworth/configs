@@ -6,7 +6,6 @@ Rows=30
 BellFile=synthetic-intruder
 ClicksPlaceCursor=yes
 CopyOnSelect=no
-CtrlExchangeShift=yes
 CtrlShiftShortcuts=yes
 CursorType=underscore
 KeyFunctions=C+Break:break
