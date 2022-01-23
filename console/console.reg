@@ -4,7 +4,7 @@ Windows Registry Editor Version 5.00
 "CursorSize"=dword:00000001
 "FaceName"="Consolas"
 "FontFamily"=dword:00000036
-"FontSize"=dword:000e0000
+"FontSize"=dword:000f0000
 "InsertMode"=dword:00000001
 "QuickEdit"=dword:00000000
 "ScreenBufferSize"=dword:012c0078
