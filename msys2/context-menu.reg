@@ -7,12 +7,12 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\msys2_02_MINGW64]
 @="&MSYS2 Bash (MINGW64)"
-"Extended"=-
+"Extended"=""
 "Icon"="C:\\opt\\msys64\\terminal.ico"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\msys2_03_UCRT64]
 @="&MSYS2 Bash (UCRT64)"
-"Extended"=""
+"Extended"=-
 "Icon"="C:\\opt\\msys64\\terminal.ico"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\msys2_04_MSYS]
