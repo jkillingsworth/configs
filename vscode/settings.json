@@ -4,13 +4,19 @@
     //---------------------------------------------------------------------------------------------
     "editor.semanticHighlighting.enabled": true,
     "editor.semanticTokenColorCustomizations": {
-        "[*Dark*]": {
+        "[*Dark+*]": {
             "rules": {
+                //-----------------------------------------------------------------------
+                // General case for all languages
+                //-----------------------------------------------------------------------
+                "macro": {
+                    "foreground": "#9cdcfe"
+                },
                 "variable.disposable": {
-                    "foreground": "#fff0c0"
+                    "foreground": "#f0e7b0"
                 },
                 "*.mutable": {
-                    "foreground": "#e0d040"
+                    "foreground": "#e0c020"
                 }
             }
         }
@@ -19,70 +25,238 @@
     // Color customization for editor (syntax tokens)
     //---------------------------------------------------------------------------------------------
     "editor.tokenColorCustomizations": {
-        "[*Dark*]": {
+        "[*Dark+*]": {
             "comments": "#606060",
-            "functions": "#d0d0d0",
+            "functions": "#d4d4d4",
             "strings": "#c080c0",
-            "variables": "#d0d0d0",
+            "variables": "#d4d4d4",
             "textMateRules": [
+                //-----------------------------------------------------------------------
+                // General case for all languages
+                //-----------------------------------------------------------------------
                 {
-                    "scope": "constant.character.string.escape",
+                    "scope": [
+                        "constant.regexp"
+                    ],
                     "settings": {
                         "foreground": "#a0a0f0"
                     }
                 },
                 {
-                    "scope": "constant.language.unit",
-                    "settings": {
-                        "foreground": "#d0d0d0"
-                    }
-                },
-                {
-                    "scope": "constant.regexp",
-                    "settings": {
-                        "foreground": "#a0a0f0"
-                    }
-                },
-                {
-                    "scope": "invalid",
-                    "settings": {
-                        "foreground": "#f06060"
-                    }
-                },
-                {
-                    "scope": "keyword.control",
+                    "scope": [
+                        "keyword",
+                        "keyword.control"
+                    ],
                     "settings": {
                         "foreground": "#569cd6"
                     }
                 },
                 {
-                    "scope": "keyword.format.specifier",
+                    "scope": [
+                        "keyword.symbol",
+                        "variable.other.constant",
+                        "variable.other.enummember"
+                    ],
+                    "settings": {
+                        "foreground": "#d4d4d4"
+                    }
+                },
+                //-----------------------------------------------------------------------
+                // Special case for C
+                //-----------------------------------------------------------------------
+                {
+                    "scope": [
+                        "source.c meta.preprocessor keyword.control"
+                    ],
+                    "settings": {
+                        "foreground": "#909080"
+                    }
+                },
+                {
+                    "scope": [
+                        "source.c meta.preprocessor string"
+                    ],
+                    "settings": {
+                        "foreground": "#d7d080"
+                    }
+                },
+                {
+                    "scope": [
+                        "source.c string.quoted constant.character.escape",
+                        "source.c string.quoted constant.other.placeholder"
+                    ],
                     "settings": {
                         "foreground": "#a0a0f0"
                     }
                 },
+                //-----------------------------------------------------------------------
+                // Special case for C++
+                //-----------------------------------------------------------------------
                 {
-                    "scope": "keyword.symbol",
+                    "scope": [
+                        "source.cpp meta.preprocessor keyword.control"
+                    ],
                     "settings": {
-                        "foreground": "#d0d0d0"
+                        "foreground": "#909080"
                     }
                 },
                 {
-                    "scope": "keyword.symbol.new",
+                    "scope": [
+                        "source.cpp meta.preprocessor string"
+                    ],
+                    "settings": {
+                        "foreground": "#d7d080"
+                    }
+                },
+                {
+                    "scope": [
+                        "source.cpp string.quoted constant.character.escape",
+                        "source.cpp string.quoted constant.other.placeholder"
+                    ],
+                    "settings": {
+                        "foreground": "#a0a0f0"
+                    }
+                },
+                //-----------------------------------------------------------------------
+                {
+                    "scope": [
+                        "source.cpp meta.head.extern string"
+                    ],
+                    "settings": {
+                        "foreground": "#d4d4d4"
+                    }
+                },
+                {
+                    "scope": [
+                        "source.cpp storage.modifier.pointer"
+                    ],
+                    "settings": {
+                        "foreground": "#d4d4d4"
+                    }
+                },
+                //-----------------------------------------------------------------------
+                // Special case for F#
+                //-----------------------------------------------------------------------
+                {
+                    "scope": [
+                        "source.fsharp constant.language.unit"
+                    ],
+                    "settings": {
+                        "foreground": "#d4d4d4"
+                    }
+                },
+                {
+                    "scope": [
+                        "source.fsharp keyword.symbol.new"
+                    ],
                     "settings": {
                         "foreground": "#569cd6"
                     }
                 },
                 {
-                    "scope": "variable.other.constant",
+                    "scope": [
+                        "source.fsharp string.quoted constant.character",
+                        "source.fsharp string.quoted keyword.format.specifier"
+                    ],
                     "settings": {
-                        "foreground": "#d0d0d0"
+                        "foreground": "#a0a0f0"
+                    }
+                },
+                //-----------------------------------------------------------------------
+                // Special case for Ruby
+                //-----------------------------------------------------------------------
+                {
+                    "scope": [
+                        "source.ruby string.quoted punctuation.section.embedded",
+                        "source.ruby string.regexp",
+                        "source.ruby string.regexp punctuation"
+                    ],
+                    "settings": {
+                        "foreground": "#c080c0"
                     }
                 },
                 {
-                    "scope": "variable.other.enummember",
+                    "scope": [
+                        "source.ruby string.quoted constant.character.escape",
+                        "source.ruby string.regexp constant.character.escape"
+                    ],
                     "settings": {
-                        "foreground": "#d0d0d0"
+                        "foreground": "#a0a0f0"
+                    }
+                },
+                //-----------------------------------------------------------------------
+                // Special case for JSON
+                //-----------------------------------------------------------------------
+                {
+                    "scope": [
+                        "source.json invalid"
+                    ],
+                    "settings": {
+                        "foreground": "#f06868"
+                    }
+                },
+                //-----------------------------------------------------------------------
+                // Special case for XML
+                //-----------------------------------------------------------------------
+                {
+                    "scope": [
+                        "text.xml string.unquoted.cdata"
+                    ],
+                    "settings": {
+                        "foreground": "#a0a0f0"
+                    }
+                },
+                {
+                    "scope": [
+                        "text.xml string.unquoted.cdata punctuation"
+                    ],
+                    "settings": {
+                        "foreground": "#d7d080"
+                    }
+                },
+                //-----------------------------------------------------------------------
+                // Special case for CSS
+                //-----------------------------------------------------------------------
+                {
+                    "scope": [
+                        "source.css entity.name.tag.css",
+                        "source.css entity.name.tag.wildcard",
+                        "source.css entity.other.attribute-name.class.css",
+                        "source.css entity.other.attribute-name.id.css",
+                        "source.css entity.other.attribute-name.pseudo-class.css",
+                        "source.css entity.other.attribute-name.pseudo-element.css"
+                    ],
+                    "settings": {
+                        "foreground": "#d7d080"
+                    }
+                },
+                {
+                    "scope": [
+                        "source.css constant.numeric",
+                        "source.css constant.numeric keyword.other.unit",
+                        "source.css constant.other.color.rgb-value",
+                        "source.css support.constant.color",
+                        "source.css support.constant.font-name",
+                        "source.css support.constant.property-value"
+                    ],
+                    "settings": {
+                        "foreground": "#d4d4d4"
+                    }
+                },
+                {
+                    "scope": [
+                        "source.css variable.scss"
+                    ],
+                    "settings": {
+                        "foreground": "#ce9178"
+                    }
+                },
+                {
+                    "scope": [
+                        "source.css support.constant.media"
+                    ],
+                    "settings": {
+                        "foreground": "#a0a0f0"
                     }
                 }
             ]
@@ -92,47 +266,47 @@
     // Color customization for workbench
     //---------------------------------------------------------------------------------------------
     "workbench.colorCustomizations": {
-        "[*Dark*]": {
-            //-----------------------------------------------------------------------------
+        "[*Dark+*]": {
+            //---------------------------------------------------------------------------
             // Highlight for matching words and brackets
-            //-----------------------------------------------------------------------------
+            //---------------------------------------------------------------------------
             "editor.wordHighlightBackground": "#404040",
             "editor.wordHighlightBorder": "#404040",
             "editorBracketMatch.background": "#404040",
             "editorBracketMatch.border": "#404040",
-            //-----------------------------------------------------------------------------
+            //---------------------------------------------------------------------------
             // Highlight for unicode characters
-            //-----------------------------------------------------------------------------
+            //---------------------------------------------------------------------------
             "editorUnicodeHighlight.background": "#373700",
             "editorUnicodeHighlight.border": "#373700",
-            //-----------------------------------------------------------------------------
+            //---------------------------------------------------------------------------
             // Explorer tree and document tabs
-            //-----------------------------------------------------------------------------
+            //---------------------------------------------------------------------------
             "gitDecoration.modifiedResourceForeground": "#e7e080",
             "gitDecoration.untrackedResourceForeground": "#73c991",
-            "list.errorForeground": "#f08080",
+            "list.errorForeground": "#f08888",
             "list.warningForeground": "#e7e080",
-            //-----------------------------------------------------------------------------
+            //---------------------------------------------------------------------------
             // Squigglies and scrollbar markers
-            //-----------------------------------------------------------------------------
-            "editorError.foreground": "#f06060",
+            //---------------------------------------------------------------------------
+            "editorError.foreground": "#f06868",
             "editorWarning.foreground": "#d7d040",
-            "editorOverviewRuler.errorForeground": "#f06060",
+            "editorOverviewRuler.errorForeground": "#f06868",
             "editorOverviewRuler.warningForeground": "#d7d040",
-            //-----------------------------------------------------------------------------
+            //---------------------------------------------------------------------------
             // Gutter indicators and icons
-            //-----------------------------------------------------------------------------
-            "debugIcon.breakpointForeground": "#f06060",
+            //---------------------------------------------------------------------------
+            "debugIcon.breakpointForeground": "#f86868",
             "editorLightBulb.foreground": "#d7d040",
             "editorGutter.background": "#222222",
             "editorGutter.addedBackground": "#d7d040",
             "editorGutter.deletedBackground": "#d7d040",
-            "editorGutter.modifiedBackground": "#d7d040",
+            "editorGutter.modifiedBackground": "#d7d040"
         }
     },
     "scm.diffDecorationsGutterPattern": {
         "added": false,
-        "modified": false,
+        "modified": false
     },
     //---------------------------------------------------------------------------------------------
     // General settings for editor
