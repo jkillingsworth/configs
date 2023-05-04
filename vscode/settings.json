@@ -286,6 +286,52 @@
                     "settings": {
                         "foreground": "#a0a0f0"
                     }
+                },
+                //-----------------------------------------------------------------------
+                // Special case for shell scripts
+                //-----------------------------------------------------------------------
+                {
+                    "scope": [
+                        "source.shell constant.character.escape"
+                    ],
+                    "settings": {
+                        "foreground": "#a0a0f0"
+                    }
+                },
+                {
+                    "scope": [
+                        "source.shell constant.numeric",
+                        "source.shell constant.other.option",
+                        "source.shell entity.name.command",
+                        "source.shell string.unquoted"
+                    ],
+                    "settings": {
+                        "foreground": "#d4d4d4"
+                    }
+                },
+                {
+                    "scope": [
+                        "source.shell entity.name.function"
+                    ],
+                    "settings": {
+                        "foreground": "#4EC9B0"
+                    }
+                },
+                {
+                    "scope": [
+                        "source.shell support.function"
+                    ],
+                    "settings": {
+                        "foreground": "#569cd6"
+                    }
+                },
+                {
+                    "scope": [
+                        "source.shell variable.language"
+                    ],
+                    "settings": {
+                        "foreground": "#d7d080"
+                    }
                 }
             ]
         }
