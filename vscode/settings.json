@@ -44,6 +44,14 @@
                 },
                 {
                     "scope": [
+                        "invalid"
+                    ],
+                    "settings": {
+                        "foreground": "#f06868"
+                    }
+                },
+                {
+                    "scope": [
                         "keyword",
                         "keyword.control"
                     ],
@@ -147,6 +155,14 @@
                 },
                 {
                     "scope": [
+                        "source.fsharp keyword.control.directive"
+                    ],
+                    "settings": {
+                        "foreground": "#909080"
+                    }
+                },
+                {
+                    "scope": [
                         "source.fsharp keyword.symbol.new"
                     ],
                     "settings": {
@@ -160,6 +176,18 @@
                     ],
                     "settings": {
                         "foreground": "#a0a0f0"
+                    }
+                },
+                //-----------------------------------------------------------------------
+                {
+                    "scope": [
+                        "source.fsharp markup.bold",
+                        "source.fsharp markup.heading",
+                        "source.fsharp punctuation.definition.list.begin.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#909080",
+                        "fontStyle": ""
                     }
                 },
                 //-----------------------------------------------------------------------
@@ -189,10 +217,10 @@
                 //-----------------------------------------------------------------------
                 {
                     "scope": [
-                        "source.json invalid"
+                        "source.json constant.character.escape"
                     ],
                     "settings": {
-                        "foreground": "#f06868"
+                        "foreground": "#a0a0f0"
                     }
                 },
                 //-----------------------------------------------------------------------
@@ -268,24 +296,36 @@
     "workbench.colorCustomizations": {
         "[*Dark+*]": {
             //---------------------------------------------------------------------------
-            // Highlight for matching words and brackets
+            // Selection highlights for menus and lists
+            //---------------------------------------------------------------------------
+            "list.activeSelectionBackground": "#404040",
+            "list.focusAndSelectionOutline": "#606060",
+            "menu.selectionBackground": "#404040",
+            //---------------------------------------------------------------------------
+            // Borders around document tabs
+            //---------------------------------------------------------------------------
+            "editorGroupHeader.border": "#383838",
+            "tab.activeBorder": "#1e1e1e",
+            "tab.unfocusedActiveBorder": "#1e1e1e",
+            //---------------------------------------------------------------------------
+            // Explorer tree and document tab text
+            //---------------------------------------------------------------------------
+            "gitDecoration.modifiedResourceForeground": "#e7e080",
+            "gitDecoration.untrackedResourceForeground": "#73c991",
+            "list.errorForeground": "#f08888",
+            "list.warningForeground": "#e7e080",
+            //---------------------------------------------------------------------------
+            // Highlights for matching words and brackets
             //---------------------------------------------------------------------------
             "editor.wordHighlightBackground": "#404040",
             "editor.wordHighlightBorder": "#404040",
             "editorBracketMatch.background": "#404040",
             "editorBracketMatch.border": "#404040",
             //---------------------------------------------------------------------------
-            // Highlight for unicode characters
+            // Highlights for unicode characters
             //---------------------------------------------------------------------------
             "editorUnicodeHighlight.background": "#373700",
             "editorUnicodeHighlight.border": "#373700",
-            //---------------------------------------------------------------------------
-            // Explorer tree and document tabs
-            //---------------------------------------------------------------------------
-            "gitDecoration.modifiedResourceForeground": "#e7e080",
-            "gitDecoration.untrackedResourceForeground": "#73c991",
-            "list.errorForeground": "#f08888",
-            "list.warningForeground": "#e7e080",
             //---------------------------------------------------------------------------
             // Squigglies and scrollbar markers
             //---------------------------------------------------------------------------
@@ -327,6 +367,7 @@
     //---------------------------------------------------------------------------------------------
     // General settings for workbench
     //---------------------------------------------------------------------------------------------
+    "workbench.colorTheme": "Default Dark+",
     "workbench.commandPalette.history": 0,
     "workbench.editor.decorations.colors": false,
     "workbench.editor.openPositioning": "last",
@@ -359,7 +400,6 @@
     "editor.lineHeight": 16,
     "debug.console.fontSize": 12.73,
     "debug.console.lineHeight": 16,
-    "interactiveSession.editor.fontSize": 13,
     "terminal.integrated.fontSize": 13,
     //---------------------------------------------------------------------------------------------
     // Other
