@@ -314,7 +314,7 @@
                         "source.shell entity.name.function"
                     ],
                     "settings": {
-                        "foreground": "#4EC9B0"
+                        "foreground": "#4ec9b0"
                     }
                 },
                 {
@@ -420,7 +420,7 @@
     "workbench.iconTheme": "vs-minimal",
     "workbench.sideBar.location": "right",
     "workbench.startupEditor": "none",
-    "workbench.tree.indent": 24,
+    "workbench.tree.indent": 20,
     //---------------------------------------------------------------------------------------------
     // General settings for terminal
     //---------------------------------------------------------------------------------------------
@@ -428,6 +428,8 @@
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorWidth": 2,
     "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.fontWeight": "normal",
+    "terminal.integrated.fontWeightBold": "normal",
     //---------------------------------------------------------------------------------------------
     // Language settings for F#
     //---------------------------------------------------------------------------------------------
