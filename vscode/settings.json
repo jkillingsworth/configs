@@ -366,9 +366,13 @@
             //---------------------------------------------------------------------------
             // Explorer tree and document tab text
             //---------------------------------------------------------------------------
+            "gitDecoration.addedResourceForeground": "#70c890",
+            "gitDecoration.renamedResourceForeground": "#70c890",
+            "gitDecoration.untrackedResourceForeground": "#70c890",
+            "gitDecoration.deletedResourceForeground": "#f08888",
+            "gitDecoration.stageDeletedResourceForeground": "#f08888",
             "gitDecoration.modifiedResourceForeground": "#e7e080",
             "gitDecoration.stageModifiedResourceForeground" : "#e7e080",
-            "gitDecoration.untrackedResourceForeground": "#73c991",
             "list.errorForeground": "#f08888",
             "list.warningForeground": "#e7e080",
             //---------------------------------------------------------------------------
