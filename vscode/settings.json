@@ -191,6 +191,16 @@
                     }
                 },
                 //-----------------------------------------------------------------------
+                //{
+                //    "scope": [
+                //        "source.fsharp constant.language.unit",
+                //        "source.fsharp keyword.symbol"
+                //    ],
+                //    "settings": {
+                //        "foreground": "#ffff80"
+                //    }
+                //},
+                //-----------------------------------------------------------------------
                 // Special case for Ruby
                 //-----------------------------------------------------------------------
                 {
@@ -357,6 +367,7 @@
             // Explorer tree and document tab text
             //---------------------------------------------------------------------------
             "gitDecoration.modifiedResourceForeground": "#e7e080",
+            "gitDecoration.stageModifiedResourceForeground" : "#e7e080",
             "gitDecoration.untrackedResourceForeground": "#73c991",
             "list.errorForeground": "#f08888",
             "list.warningForeground": "#e7e080",
