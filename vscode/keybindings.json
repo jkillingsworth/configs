@@ -1,0 +1,33 @@
+[
+    //---------------------------------------------------------------------------------------------
+    // Default removals
+    //---------------------------------------------------------------------------------------------
+    {
+        "key": "ctrl+shift+.",
+        "command": "-breadcrumbs.toggleToOn",
+        "when": "!config.breadcrumbs.enabled"
+    },
+    //---------------------------------------------------------------------------------------------
+    // Default updates
+    //---------------------------------------------------------------------------------------------
+    {
+        "key": "ctrl+shift+i",
+        "command": "-workbench.action.toggleDevTools",
+        "when": "isDevelopment"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "workbench.action.toggleDevTools"
+    },
+    //---------------------------------------------------------------------------------------------
+    // Addendums
+    //---------------------------------------------------------------------------------------------
+    {
+        "key": "ctrl+alt+,",
+        "command": "workbench.action.openSettingsJson"
+    },
+    {
+        "key": "ctrl+shift+alt+i",
+        "command": "editor.action.inspectTMScopes"
+    }
+]
