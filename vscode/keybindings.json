@@ -27,7 +27,11 @@
         "command": "workbench.action.openSettingsJson"
     },
     {
-        "key": "ctrl+shift+alt+i",
+        "key": "ctrl+alt+.",
+        "command": "workbench.action.openGlobalKeybindingsFile"
+    },
+    {
+        "key": "ctrl+alt+i",
         "command": "editor.action.inspectTMScopes"
     }
 ]

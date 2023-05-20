@@ -298,6 +298,28 @@
                     }
                 },
                 //-----------------------------------------------------------------------
+                // Special case for Markdown
+                //-----------------------------------------------------------------------
+                {
+                    "scope": [
+                        "text.html.markdown markup.heading",
+                        "text.html.markdown punctuation.definition.list.begin.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#4ec9b0",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "text.html.markdown markup.underline.link"
+                    ],
+                    "settings": {
+                        "foreground": "#569cd6",
+                        "fontStyle": ""
+                    }
+                },
+                //-----------------------------------------------------------------------
                 // Special case for shell scripts
                 //-----------------------------------------------------------------------
                 {
@@ -372,7 +394,7 @@
             "gitDecoration.deletedResourceForeground": "#f08888",
             "gitDecoration.stageDeletedResourceForeground": "#f08888",
             "gitDecoration.modifiedResourceForeground": "#e7e080",
-            "gitDecoration.stageModifiedResourceForeground" : "#e7e080",
+            "gitDecoration.stageModifiedResourceForeground": "#e7e080",
             "list.errorForeground": "#f08888",
             "list.warningForeground": "#e7e080",
             //---------------------------------------------------------------------------
