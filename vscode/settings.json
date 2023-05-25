@@ -4,13 +4,28 @@
     //---------------------------------------------------------------------------------------------
     "editor.semanticHighlighting.enabled": true,
     "editor.semanticTokenColorCustomizations": {
-        "[*Dark+*]": {
+        "[Default Dark+]": {
             "rules": {
                 //-----------------------------------------------------------------------
                 // General case for all languages
                 //-----------------------------------------------------------------------
+                "enumMember": {
+                    "foreground": "#d4d4d4"
+                },
                 "macro": {
                     "foreground": "#9cdcfe"
+                },
+                "property": {
+                    "foreground": "#d4d4d4"
+                },
+                "operator": {
+                    "foreground": "#d4d4d4"
+                },
+                //"operator": {
+                //    "foreground": "#ffff80"
+                //},
+                "regexp": {
+                    "foreground": "#a0a0f0"
                 },
                 "variable.disposable": {
                     "foreground": "#f0e7b0"
@@ -25,7 +40,7 @@
     // Color customization for editor (syntax tokens)
     //---------------------------------------------------------------------------------------------
     "editor.tokenColorCustomizations": {
-        "[*Dark+*]": {
+        "[Default Dark+]": {
             "comments": "#606060",
             "functions": "#d4d4d4",
             "strings": "#c080c0",
@@ -34,14 +49,6 @@
                 //-----------------------------------------------------------------------
                 // General case for all languages
                 //-----------------------------------------------------------------------
-                {
-                    "scope": [
-                        "constant.regexp"
-                    ],
-                    "settings": {
-                        "foreground": "#a0a0f0"
-                    }
-                },
                 {
                     "scope": [
                         "invalid"
@@ -57,16 +64,6 @@
                     ],
                     "settings": {
                         "foreground": "#569cd6"
-                    }
-                },
-                {
-                    "scope": [
-                        "keyword.symbol",
-                        "variable.other.constant",
-                        "variable.other.enummember"
-                    ],
-                    "settings": {
-                        "foreground": "#d4d4d4"
                     }
                 },
                 //-----------------------------------------------------------------------
@@ -147,12 +144,30 @@
                 //-----------------------------------------------------------------------
                 {
                     "scope": [
-                        "source.fsharp constant.language.unit"
+                        "source.fsharp constant.other"
+                    ],
+                    "settings": {
+                        "foreground": "#569cd6"
+                    }
+                },
+                {
+                    "scope": [
+                        "source.fsharp constant.language.unit",
+                        "source.fsharp keyword.symbol"
                     ],
                     "settings": {
                         "foreground": "#d4d4d4"
                     }
                 },
+                //{
+                //    "scope": [
+                //        "source.fsharp constant.language.unit",
+                //        "source.fsharp keyword.symbol"
+                //    ],
+                //    "settings": {
+                //        "foreground": "#ffff80"
+                //    }
+                //},
                 {
                     "scope": [
                         "source.fsharp keyword.control.directive"
@@ -191,16 +206,6 @@
                     }
                 },
                 //-----------------------------------------------------------------------
-                //{
-                //    "scope": [
-                //        "source.fsharp constant.language.unit",
-                //        "source.fsharp keyword.symbol"
-                //    ],
-                //    "settings": {
-                //        "foreground": "#ffff80"
-                //    }
-                //},
-                //-----------------------------------------------------------------------
                 // Special case for Ruby
                 //-----------------------------------------------------------------------
                 {
@@ -220,6 +225,14 @@
                     ],
                     "settings": {
                         "foreground": "#a0a0f0"
+                    }
+                },
+                {
+                    "scope": [
+                        "source.ruby variable.other.constant"
+                    ],
+                    "settings": {
+                        "foreground": "#d4d4d4"
                     }
                 },
                 //-----------------------------------------------------------------------
@@ -372,7 +385,7 @@
     // Color customization for workbench
     //---------------------------------------------------------------------------------------------
     "workbench.colorCustomizations": {
-        "[*Dark+*]": {
+        "[Default Dark+]": {
             //---------------------------------------------------------------------------
             // Selection highlights for menus and lists
             //---------------------------------------------------------------------------
