@@ -12,11 +12,11 @@
                 "enumMember": {
                     "foreground": "#d4d4d4"
                 },
-                "macro": {
-                    "foreground": "#9cdcfe"
+                "label": {
+                    "foreground": "#ce9178"
                 },
-                "property": {
-                    "foreground": "#d4d4d4"
+                "macro": {
+                    "foreground": "#79bcea"
                 },
                 "operator": {
                     "foreground": "#d4d4d4"
@@ -24,6 +24,9 @@
                 //"operator": {
                 //    "foreground": "#ffff80"
                 //},
+                "property": {
+                    "foreground": "#d4d4d4"
+                },
                 "regexp": {
                     "foreground": "#a0a0f0"
                 },
@@ -77,7 +80,7 @@
                         "source.c meta.preprocessor keyword.control"
                     ],
                     "settings": {
-                        "foreground": "#909080"
+                        "foreground": "#a0a0a0"
                     }
                 },
                 {
@@ -105,7 +108,7 @@
                         "source.cpp meta.preprocessor keyword.control"
                     ],
                     "settings": {
-                        "foreground": "#909080"
+                        "foreground": "#a0a0a0"
                     }
                 },
                 {
@@ -176,7 +179,7 @@
                         "source.fsharp keyword.control.directive"
                     ],
                     "settings": {
-                        "foreground": "#909080"
+                        "foreground": "#a0a0a0"
                     }
                 },
                 {
@@ -184,7 +187,7 @@
                         "source.fsharp keyword.symbol.arrow"
                     ],
                     "settings": {
-                        "foreground": "#90b8d8"
+                        "foreground": "#79bcea"
                     }
                 },
                 {
@@ -209,10 +212,25 @@
                     "scope": [
                         "source.fsharp markup.bold",
                         "source.fsharp markup.heading",
+                        "source.fsharp markup.inline.raw",
                         "source.fsharp punctuation.definition.list.begin.markdown"
                     ],
                     "settings": {
-                        "foreground": "#909080",
+                        "foreground": "#606060",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "source.fsharp entity.name.tag.html",
+                        "source.fsharp entity.other.attribute-name.html",
+                        "source.fsharp punctuation.definition.tag.begin.html",
+                        "source.fsharp punctuation.definition.tag.end.html",
+                        "source.fsharp string.quoted.double.html",
+                        "source.fsharp string.quoted.single.html"
+                    ],
+                    "settings": {
+                        "foreground": "#606060",
                         "fontStyle": ""
                     }
                 },
