@@ -16,7 +16,7 @@
                     "foreground": "#ce9178"
                 },
                 "macro": {
-                    "foreground": "#79bcea"
+                    "foreground": "#9cdcfe"
                 },
                 "operator": {
                     "foreground": "#d4d4d4"
@@ -158,7 +158,6 @@
                 },
                 {
                     "scope": [
-                        "source.fsharp constant.language.unit",
                         "source.fsharp keyword.symbol"
                     ],
                     "settings": {
@@ -167,7 +166,6 @@
                 },
                 //{
                 //    "scope": [
-                //        "source.fsharp constant.language.unit",
                 //        "source.fsharp keyword.symbol"
                 //    ],
                 //    "settings": {
@@ -185,14 +183,6 @@
                 {
                     "scope": [
                         "source.fsharp keyword.symbol.arrow"
-                    ],
-                    "settings": {
-                        "foreground": "#79bcea"
-                    }
-                },
-                {
-                    "scope": [
-                        "source.fsharp keyword.symbol.new"
                     ],
                     "settings": {
                         "foreground": "#569cd6"
@@ -455,9 +445,9 @@
             // Squigglies and scrollbar markers
             //---------------------------------------------------------------------------
             "editorError.foreground": "#f06868",
-            "editorWarning.foreground": "#d7d040",
+            "editorWarning.foreground": "#95db7d",
             "editorOverviewRuler.errorForeground": "#f06868",
-            "editorOverviewRuler.warningForeground": "#d7d040",
+            "editorOverviewRuler.warningForeground": "#95db7d",
             //---------------------------------------------------------------------------
             // Gutter indicators and icons
             //---------------------------------------------------------------------------
@@ -532,5 +522,6 @@
     // Other
     //---------------------------------------------------------------------------------------------
     "breadcrumbs.enabled": false,
-    "files.insertFinalNewline": true
+    "files.insertFinalNewline": true,
+    "task.quickOpen.history": 0
 }
