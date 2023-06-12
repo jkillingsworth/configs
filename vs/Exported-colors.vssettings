@@ -66,7 +66,7 @@
               <Item Name="CppUDLNumberSemanticTokenFormat" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
               <Item Name="CppUDLRawSemanticTokenFormat" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
               <Item Name="CppLabelSemanticTokenFormat" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
-              <Item Name="CppNamespaceSemanticTokenFormat" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppNamespaceSemanticTokenFormat" Foreground="0x00B0C94E" Background="0x01000001" BoldFont="No"/>
               <Item Name="CppFunctionTemplateSemanticTokenFormat" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
               <Item Name="CppEventSemanticTokenFormat" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
               <Item Name="CppPropertySemanticTokenFormat" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
@@ -77,7 +77,7 @@
               <Item Name="CppFunctionSemanticTokenFormat" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
               <Item Name="CppParameterSemanticTokenFormat" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
               <Item Name="CppLocalVariableSemanticTokenFormat" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
-              <Item Name="CppGlobalVariableSemanticTokenFormat" Foreground="0x001CD2FF" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppGlobalVariableSemanticTokenFormat" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
               <Item Name="CppEnumSemanticTokenFormat" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
               <Item Name="CppMacroSemanticTokenFormat" Foreground="0x00FEDC9C" Background="0x01000001" BoldFont="No"/>
               <Item Name="HTML Operator" Foreground="0x00808080" Background="0x02000000" BoldFont="No"/>
