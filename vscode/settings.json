@@ -10,7 +10,7 @@
                 // General case for all languages
                 //-----------------------------------------------------------------------
                 "enumMember": {
-                    "foreground": "#d4d4d4"
+                    "foreground": "#4ec9b0"
                 },
                 "label": {
                     "foreground": "#ce9178"
@@ -21,9 +21,6 @@
                 "operator": {
                     "foreground": "#d4d4d4"
                 },
-                //"operator": {
-                //    "foreground": "#ffff80"
-                //},
                 "property": {
                     "foreground": "#d4d4d4"
                 },
@@ -34,10 +31,10 @@
                     "foreground": "#d4d4d4"
                 },
                 "variable.disposable": {
-                    "foreground": "#f0e7b0"
+                    "foreground": "#fff0b8"
                 },
                 "*.mutable": {
-                    "foreground": "#e0c020"
+                    "foreground": "#ffd21c"
                 }
             }
         }
@@ -131,18 +128,39 @@
                 //-----------------------------------------------------------------------
                 {
                     "scope": [
-                        "source.cpp meta.head.extern string"
+                        "source.cpp keyword.other.using"
+                    ],
+                    "settings": {
+                        "foreground": "#569cd6"
+                    }
+                },
+                {
+                    "scope": [
+                        "source.cpp meta.head.extern string",
+                        "source.cpp storage.modifier.pointer",
+                        "source.cpp storage.modifier.reference"
                     ],
                     "settings": {
                         "foreground": "#d4d4d4"
                     }
                 },
+                //-----------------------------------------------------------------------
+                // Special case for C#
+                //-----------------------------------------------------------------------
                 {
                     "scope": [
-                        "source.cpp storage.modifier.pointer"
+                        "source.cs constant.character.escape"
                     ],
                     "settings": {
-                        "foreground": "#d4d4d4"
+                        "foreground": "#a0a0f0"
+                    }
+                },
+                {
+                    "scope": [
+                        "source.cs keyword.other.using"
+                    ],
+                    "settings": {
+                        "foreground": "#569cd6"
                     }
                 },
                 //-----------------------------------------------------------------------
@@ -164,14 +182,6 @@
                         "foreground": "#d4d4d4"
                     }
                 },
-                //{
-                //    "scope": [
-                //        "source.fsharp keyword.symbol"
-                //    ],
-                //    "settings": {
-                //        "foreground": "#ffff80"
-                //    }
-                //},
                 {
                     "scope": [
                         "source.fsharp keyword.control.directive"
@@ -511,8 +521,9 @@
     "FSharp.lineLens.enabled": "never",
     "FSharp.pipelineHints.enabled": false,
     //---------------------------------------------------------------------------------------------
-    // Font size and line height
+    // Font settings
     //---------------------------------------------------------------------------------------------
+    "editor.fontFamily": "Consolas",
     "editor.fontSize": 12.73,
     "editor.lineHeight": 16,
     "debug.console.fontSize": 12.73,
@@ -522,6 +533,6 @@
     // Other
     //---------------------------------------------------------------------------------------------
     "breadcrumbs.enabled": false,
-    "files.insertFinalNewline": true,
+    "files.insertFinalNewline": false,
     "task.quickOpen.history": 0
 }
