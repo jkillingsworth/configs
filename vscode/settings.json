@@ -533,7 +533,9 @@
     // Other
     //---------------------------------------------------------------------------------------------
     "breadcrumbs.enabled": false,
+    "files.hotExit": "off",
     "files.insertFinalNewline": false,
+    "powershell.integratedConsole.showOnStartup": false,
     "security.workspace.trust.enabled": false,
     "task.quickOpen.history": 0,
     "window.commandCenter": false,
