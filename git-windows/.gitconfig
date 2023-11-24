@@ -10,5 +10,3 @@
 	autosquash = true
 [init]
 	defaultBranch = master
-[credential]
-	helper = store
