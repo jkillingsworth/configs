@@ -483,7 +483,7 @@
     "editor.codeLens": false,
     "editor.colorDecorators": false,
     "editor.guides.highlightActiveIndentation": false,
-    "editor.inlayHints.enabled": "off",
+    "editor.inlayHints.enabled": "offUnlessPressed",
     "editor.lineNumbers": "off",
     "editor.links": false,
     "editor.matchBrackets": "near",
@@ -514,8 +514,6 @@
     //---------------------------------------------------------------------------------------------
     "FSharp.codeLenses.references.enabled": false,
     "FSharp.codeLenses.signature.enabled": false,
-    "FSharp.inlayHints.parameterNames": false,
-    "FSharp.inlayHints.typeAnnotations": false,
     "FSharp.interfaceStubGeneration": false,
     "FSharp.lineLens.enabled": "never",
     "FSharp.pipelineHints.enabled": false,
