@@ -426,7 +426,7 @@
             //---------------------------------------------------------------------------
             "editorGroupHeader.border": "#383838",
             "tab.activeBorder": "#1e1e1e",
-            "tab.activeBorderTop": "#a0a000",
+            "tab.activeBorderTop": "#707070",
             "tab.unfocusedActiveBorder": "#1e1e1e",
             "tab.unfocusedActiveBorderTop": "#1e1e1e",
             //---------------------------------------------------------------------------
