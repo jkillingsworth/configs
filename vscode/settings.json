@@ -157,7 +157,7 @@
                 },
                 {
                     "scope": [
-                        "source.cs keyword.other.using"
+                        "source.cs keyword.other.directive.using",
                     ],
                     "settings": {
                         "foreground": "#569cd6"
@@ -495,9 +495,10 @@
     "editor.bracketPairColorization.enabled": false,
     "editor.codeLens": false,
     "editor.colorDecorators": false,
+    "editor.detectIndentation": false,
     "editor.guides.highlightActiveIndentation": false,
     "editor.inlayHints.enabled": "offUnlessPressed",
-    "editor.lineNumbers": "off",
+    "editor.lineNumbers": "on",
     "editor.links": false,
     "editor.matchBrackets": "near",
     "editor.minimap.enabled": false,
@@ -540,7 +541,15 @@
     //---------------------------------------------------------------------------------------------
     // Language settings for JSON
     //---------------------------------------------------------------------------------------------
-    "json.format.keepLines": true,
+    "json.format.keepLines": false,
+    //---------------------------------------------------------------------------------------------
+    // Language settings for Markdown
+    //---------------------------------------------------------------------------------------------
+    "markdown-mermaid.darkModeTheme": "default",
+    "markdown-mermaid.lightModeTheme": "default",
+    "markdown-preview-github-styles.colorTheme": "light",
+    "markdown.preview.scrollEditorWithPreview": false,
+    "markdown.preview.scrollPreviewWithEditor": false,
     //---------------------------------------------------------------------------------------------
     // Font settings
     //---------------------------------------------------------------------------------------------
