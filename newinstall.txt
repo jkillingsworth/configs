@@ -1,0 +1,957 @@
+===================================================================================================
+Windows 10 22H2
+===================================================================================================
+
+- When installing, skip all the sign in stuff and turn off all the options it asks to enable
+
+- Drivers installed automatically
+  - Display adapters
+    - Radeon (TM) RX 470 Graphics
+      - Driver date: 2023-03-30
+      - Driver version: 31.0.12027.9001
+  - Network adapters
+    - Realtek PCIe GbE Family Controller
+      - Driver date: 2015-04-9
+      - Driver version: 9.1.410.2015
+
+- Display driver can be downloaded manually
+    - Navigate to https://www.catalog.update.microsoft.com/
+    - Enter "AMD Radeon RX 470" in the search box
+
+- Install the Logi Options+ software if prompted to (for MX Anywhere 3 mouse)
+
+- Run all the Windows updates
+
+- Settings->System
+  - Display
+    - Rearrange the displays appropriately (1-2-3-4)
+    - Select monitor #2
+    - Under "Multiple displays" check "Make this my main display"
+  - Sound
+    - Navigate to "Sound Control Panel"
+      - Sounds
+        - For option "Asterisk" select "Windows Information Bar.wav"
+        - For option "Default Beep" select "Windows Default.wav"
+        - For option "Exclamation" select "Windows Baloon.wav"
+        - For option "Notification" select "Windows Proximity Notification.wav"
+  - Notifications and actions
+    - Uncheck "Show me the Windows welcome experience..."
+    - Uncheck "Suggest ways I can finish setting up my device..."
+    - Uncheck "Get tips, tricks, and suggestions..."
+    - Navigate to "Snip & Sketch"
+      - Uncheck "Show notification banners"
+      - Uncheck "Show notifications in action center"
+      - You might have to press Win+Shift+S and take a screenshot first before it shows up
+    - Navigate to "Suggested"
+      - Turn off "Notifications"
+      - You might have to wait until one of the nags pop up before this is available
+  - Focus assist
+    - Turn off "When I'm using an app in full scree mode"
+  - Power & sleep
+    - Under "Screen" select "20 minutes"
+    - Under "Sleep" select "Never"
+    - Under "Performance and Energy" select "Best performance"
+  - Storage
+    - Navigate to "Optimize Drives"
+      - Turn off scheduled optimizations (optional)
+  - Multitasking
+    - Uncheck "When I snap a window, show what I can snap next to it""
+    - Turn off "Show suggestions in your timeline"
+    - For option "Pressing Alt + Tab shows" select "Open windows only"
+  - Shared experiences
+    - Turn off "Let apps on other devices open and message apps on this device..."
+  - About
+    - Rename this PC to "Echo"
+    - Navigate to "Advanced system settings"
+      - See .\windows\system-properties-advanced-performance-1.png
+      - See .\windows\system-properties-advanced-performance-2.png (optional)
+      - See .\windows\system-properties-remote.png
+
+- Settings->Devices
+  - Printers & scanners
+    - Uncheck "Let Windows manage my default printer"
+    - Choose default printer
+  - AutoPlay
+    - Turn off "Use AutoPlay for all media and devices"
+    - Under "Choose AutoPlay defaults" select "Take no action" for all items
+
+- Settings->Network & Internet
+  - Ethernet
+    - Network
+      - Under "Network profile" select "Private" (optional)
+
+- Settings->Personalization
+  - Background
+    - For option "Background" select "Solid color"
+    - For option "Choose your background color" select "Storm"
+  - Colors
+    - Turn off "Transparency effects"
+  - Lock Screen
+    - For option "Background" select "Picture"
+    - For option "Choose your picture" select "C:\Windows\Web\Wallpaper\Windows\img0.jpg"
+    - Turn off "Get fun facts, tips, and more..."
+  - Themes
+    - Navigate to "Desktop icon settings"
+      - Uncheck "Recycle Bin"
+  - Start
+    - Turn off all options
+    - Navigate to "Choose which folders appear on Start"
+      - Turn off all options
+  - Taskbar
+    - Turn on "Use small taskbar buttons"
+    - Turn on "Use Peek to preview the desktop when..."
+    - Turn off "Replace Command Prompt with Windows Powershell in the menu..."
+    - For option "Combine taskbar buttons" select "When taskbar is full"
+    - Navigate to "Select which icons appear on the taskbar"
+      - Turn on "Always show all icons in the notification area"
+    - Navigate to "Turn system icons on or off"
+      - Turn off "Meet Now"
+    - Turn off "Show taskbar on all displays"
+    - Turn off "Show news and interests on the taskbar"
+    - Edit group policy
+      - Computer Configuration
+        - Administrative Templates 
+          - News and interests
+            - Disable "Enable news and interets on the taskbar"
+    - Move taskbar to monitor #1
+
+- Settings->Apps
+  - Default apps
+    - Select "Google Chrome" as default app for "Email"
+    - Select "Google Chrome" as default app for "Web browser"
+    - Select "Windows Media Player" as default app for "Music player"
+    - Select "Windows Media Player" as default app for "Video player" (optional)
+  - Startup
+    - Turn off all options
+
+- Settings->Time & Language
+  - Region
+    - Navigate to "Change data formats"
+      - For option "Short date" select "yyyy-MM-dd"
+      - For option "Short time" select "hh:mm tt"
+      - For option "Long time" select "hh:mm:ss tt"
+    - Navigate to "Additional date, time & regional settings"
+      - Navigate to "Region"
+        - Navigate to "Additional settings..."
+          - Date
+            - For option "Long date" enter "dddd, MMMM dd, yyyy"
+
+- Settings->Gaming
+  - Game Bar
+    - Turn off "Enable Game Bar for things like recording game clips..."
+    - Uncheck "Allow your controller to open Game Bar"
+  - Game Mode
+    - Turn off "Game Mode"
+
+- Settings->Ease of Access
+  - Display
+    - Turn off "Automatically hide scroll bars in Windows"
+  - Magnifier
+    - Uncheck "Smooth edges of images and text"
+  - Color filters
+    - Check "Allow the shortcut key..."
+    - Use shortcut key to turn color filter on
+    - For option "Select a color filter..." select "Inverted"
+    - Use shortcut key to turn color filter off
+  - Keyboard
+    - Use Toggle Keys
+      - Turn on "Play a sound whenever you press Caps Lock, Num Lock, or Scroll Lock"
+    - Print Screen shortcut
+      - Turn on "Use the PrtScn button to open screen snipping"
+
+- Settings->Search
+  - Permission & History
+    - Under "Cloud content search" turn off all options
+    - Turn off "Search history on the device"
+    - Click button "Clear device search history"
+  - Searching Windows
+    - Add "C:\Users\" to excluded folders
+    - Navigate to "Advanced Search Indexer Settings"
+      - If it exists, remove "Favorites"
+      - If it exists, remove "Internet Explorer History"
+      - See .\windows\indexing-options.png
+
+- Settings->Privacy
+  - General
+    - Turn off "Let apps use advertising ID..."
+    - Turn off "Let websites provide locally relevant content by accessing my language"
+    - Turn off "Let Windows track app launches to improve Start and search results" (optional)
+    - Turn off "Show me suggested content in the Settings app"
+  - Inking & typing personalization
+    - Turn off "Use your typing history and handwriting patterns..."
+  - Diagnostics & feedback
+    - For option "Windows should ask for my feedback" select "Never"
+  - Activity history
+    - Uncheck "Store my activity history on this device"
+    - Clear activity history
+
+- Settings->Update & Security
+  - Windows Update
+    - Check for updates
+    - Navigate to "View optional updates"
+      - Install driver update "ATK - Other hardware - ATK0110 ACPI UTILITY" (optional)
+    - Navigate to "Change active hours"
+      - Set active hours to 6AM to 11PM
+    - Navigate to "Advanced options"
+      - Turn on "Receive updates for other Microsoft products..." (optional)
+      - Turn on "Show a notification when your PC requires a restart..."
+  - Delivery Optimization
+    - Turn off "Allow downloads from other PCs"
+  - Windows Security
+    - Virus & threat protection
+      - Virus & threat protection settings
+        - Turn off "Real-time protection"
+        - Turn off "Cloud-delivered protection"
+        - Turn off "Automatic sample submission"
+        - Turn off "Tamper protection"
+        - Edit group policy
+          - Computer Configuration
+            - Administrative Templates 
+              - Windows Components
+                - Microsoft Defender Antivirus
+                  - Real-time Protection
+                    - Enable "Turn off real-time protection"
+        - Dismiss all nags
+    - App & browser control
+      - Reputation-based protection
+        - Turn off all options
+        - Dismiss all nags
+      - Exploit protection
+        - Under "System settings" select "Off by default" for all items (optional)
+        - Reboot
+
+- Control Panel
+  - For option "View by" select "Small icons"
+
+- Control Panel->File Explorer Options
+  - See .\windows\folder-options-general.png
+  - See .\windows\folder-options-view.png
+
+- Control Panel->User Accounts
+  - Navigate to "Change User Account Control settings"
+    - Set to "Never notify"
+
+- Right-click desktop and select View->Small icons
+- Remove the search box from the taskbar
+- Remove all the pinned items from the taskbar
+- Remove all the pinned items from the start menu
+- Add preferred programs to start menu
+  - See .\windows\start-menu.png
+  - Create "File Explorer" icon that opens at target location "C:\"
+    - Create shortcut to "Local Disk (C:)"
+    - Change shortcut name to "File Explorer"
+    - Change shortcut icon
+
+- Disable hibernate feature
+  - Run command prompt as administrator
+  - Run command "powercfg -h off"
+
+- Disable memory compression and page combining (optional)
+  - Run powershell as administrator
+  - Run command "Disable-MMAgent -MemoryCompression"
+  - Run command "Disable-MMAgent -PageCombining"
+  - Run command "Get-MMAgent" to verify
+
+---------------------------------------------------------------------------------------------------
+
+Windows Search
+
+- Edit group policy
+  - User Configuration
+    - Administrative Templates
+      - Windows components
+        - File Explorer
+          - Enable "Turn off display of recent search entries in the File Explorer search box"
+
+- Windows Defender Firewall with Advanced Security (optional)
+  - Inbound Rules
+    - Edit "Windows Search" and select "Block the connection"
+  - Outbound Rules
+    - Edit "Windows Search" and select "Block the connection"
+
+---------------------------------------------------------------------------------------------------
+
+File Explorer
+
+- Remove "New folder" from Quick Access Toolbar
+- Remove "Properties" from Quick Access Toolbar
+- Add "Hidden items" to Quick Access Toolbar
+  - Look under the "View" ribbon in the "Show/hide" section
+  - Right-click the "Hidden items" option
+  - Select the "Add to Quick Access Toolbar" option
+- Adjust navigation pane width
+  - See .\windows\file-explorer.png
+
+---------------------------------------------------------------------------------------------------
+
+Notepad
+
+- Format->Font...
+  - Under "Font" select "Consolas"
+  - Under "Font style" select "Regular"
+  - Under "Size" select "10"
+
+---------------------------------------------------------------------------------------------------
+
+Console
+
+- Configure console defaults in registry
+  - See .\windows\console.reg
+  - See .\windows\console-colors.reg (optional)
+
+---------------------------------------------------------------------------------------------------
+
+Create new folders off the root
+- C:\home\
+- C:\opt\
+
+===================================================================================================
+7-Zip
+===================================================================================================
+
+- Download and run the installer
+
+===================================================================================================
+Logi Options+
+===================================================================================================
+
+- Download and run the installer if not already installed
+
+- Settings (gear icon, upper right)
+  - Check for update
+  - Turn off "Automatically install updates"
+  - Turn off "Caps lock, Num lock, Scroll lock and Fn lock notifications"
+  - Turn off "Mic mute/unmute notification"
+  - Turn off "Star ratings in-app and system notifications"
+
+- Mouse
+  - Buttons
+    - Select "Shift wheel mode" for "Wheel button"
+    - Select "Shift wheel mode" for "Top button"
+  - Point and scroll
+    - For scroll wheel option "Scrolling force" set to 100%
+    - For scroll wheel option "SmartShift" set sensitivity value to 80%
+
+===================================================================================================
+Microsoft Edge
+===================================================================================================
+
+- Settings and more->Help and feedback
+  - About Microsoft Edge
+    - Check for updates
+
+- Settings and more->Settings
+  - Profiles
+    - Microsoft Rewards
+      - Turn off "Earn Microsoft Rewards in Microsoft Edge"
+    - Profile preferences
+      - Turn off "Automatic sign in on Microsoft Edge"
+      - Turn off "Allow single sign-on for work or school sites using this profile"
+    - Share browsing data with other Windows features
+      - Turn off "Share browsing data with other Windows features"
+    - Wallet
+      - Settings
+        - Turn off all options
+  - Privacy, search, and services
+    - Turn off "Allow sites to check if you have payment methods saved"
+    - Turn off "Allow Microsoft to save your browsing activity..."
+    - Turn off "Use a web service to help resolve navigation errors"
+    - Turn off "Suggest similar sites when a website can't be found"
+    - Turn off "Save time and money with Shopping in Microsoft Edge"
+    - Turn off "Show opportunities to support causes and nonprofits you care about"
+    - Turn off "Get notifications of related things you can explore with Discover"
+    - Turn off "Include related matches in Find on page"
+    - Turn off "Let Microsoft Edge help keep your tabs organized"
+    - Address bar and search
+      - For option "Search engine used in the address bar" select "Google"
+      - For option "Search on new tabs uses search box or address bar" select "Address bar"
+  - Appearance
+    - Turn off "Show tab preview on hover"
+    - For option "Show favorites bar" select "Never"
+    - Turn off "Home button"
+    - For option "Forward button" select "Always show"
+    - For option "Extensions button" select "Always show"
+    - Turn off "Collections button"
+    - Turn off "Browser essentials button"
+    - Customize fonts
+      - For option "Sans-serif font" select "Segoe UI" (optional)
+  - Sidebar
+    - Turn off "Always show sidebar"
+    - Turn off "Personalize my top sites in customize sidebar"
+    - Turn off "Allow sidebar app to show notifications"
+  - Start, home, and new tabs
+    - Turn off "Preload your new tab page for a faster experience"edg
+  - Downloads
+    - For option "Location" set to desktop folder
+  - System and performance
+    - Turn off "Startup boost"
+    - Turn off "Continue running background extensions and apps when Microsoft Edge is closed"
+
+- New tab->Page settings
+  - For option "Quick links" select "Off"
+  - Turn off "Content"
+  - For option "Background" select "Off"
+  - Turn off "Show weather"
+
+- Settings->Apps
+  - Startup
+    - Turn off "Microsoft Edge"
+
+===================================================================================================
+Google Chrome
+===================================================================================================
+
+- Download and run the installer
+
+- Settings
+  - You and Google
+    - Click the "Turn on sync..." button
+      - Login
+  - Autofill and passwords
+    - Google Password Manager
+      - Settings
+        - Turn off "Offer to save passwords"
+        - Turn off "Sign in automatically"
+    - Payment methods
+      - Turn off "Save and fill payment methods"
+      - Turn off "Allow sites to check if you have payment methods saved"
+    - Addresses and more
+      - Turn off "Safe and fill addresses"
+  - Privacy and security
+    - Security
+      - Under "Safe Browsing" select "No protection"
+  - Appearance
+    - Turn off "Show home button"
+    - Turn off "Show bookmarks bar"
+    - Turn off "Show tab preview images"
+    - Customize fonts
+      - For option "Sans-serif font" select "Segoe UI" (optional)
+  - On startup
+    - Select the "Open the New Tab page" option
+  - Downloads
+    - For option "Location" set to desktop folder
+    - Turn on "Ask where to save each file before downloading"
+    - Turn off "Show downloads when they're done"
+  - Extensions
+    - https://chromewebstore.google.com/detail/h264ify/aleakchihdccplidncghkekgioiakgal
+    - https://chromewebstore.google.com/detail/undetectable-adblocker/gcfcpohokifjldeandkfjoboemihipmb
+
+- Customize Chrome (bottom right)
+  - Appearance
+    - Select "Grey default color"
+  - Shortcuts
+    - Turn off "Show shortcuts"
+  - Cards
+    - Turn off "Show cards"
+
+===================================================================================================
+Adobe Acrobat Reader
+===================================================================================================
+
+- Download and run the installer
+  - Be sure to uncheck all the bloatware options when downloading the installer
+
+- Menu
+  - Disable new Acrobat Reader
+  - Restart
+
+- Edit->Preferences
+  - Documents
+    - For option "Documents in recently used list" select "0"
+    - Check "Remember current state of the Tools Pane"
+  - Page Display
+    - For option "Page Layout" select "Single Page"
+    - For option "Zoom" select "Fit Page"
+    - For option "Resolution" select "Use system setting: 96 pixel/inch"
+
+- View->Show/Hide->Toolbar Items
+  - Show File Tools
+    - Uncheck "Add File to Starred Files"
+    - Uncheck "Save Files to Adobe could storage..."
+    - Uncheck "Print..."
+    - Uncheck "Send File..."
+  - Show Edit Tools
+    - Check "Advanced Search"
+  - Show Page Navigation Tools
+    - Uncheck "Previous Page"
+    - Uncheck "Next Page"
+    - Check "Previous View"
+    - Check "Next View"
+  - Show Page Display Tools
+    - Check "Enable Scrolling"
+    - Check "Single Page View"
+    - Check "Two Page Scrolling"
+    - Check "Two Page View"
+    - Check "Clockwise"
+    - Check "Counterclockwise"
+  - Show Select & Zoom Tools
+    - Uncheck "Zoom In"
+    - Uncheck "Zoom Out"
+  - Select "Hide Quick Tools"
+
+- View->Show/Hide
+  - Uncheck "Tools Pane"
+
+- Hide task pane (bottom right)
+- Hide left pane
+
+===================================================================================================
+Brother DCP-7065DN Printer
+===================================================================================================
+
+- Download "Full Driver & Software Package"
+- Run the installation wizard
+  - Connection Type
+    - Select "Wired Network Connection (Ethernet)"
+    - Check "Custom Install" (optional)
+  - Setup Complete
+    - Uncheck "Enable Status Monitor on startup"
+
+- Download "ControlCenter4 Update Tool"
+- Run the installation wizard
+
+- Open "Brother Utilities" and run the "ControlCenter4" program
+  - Configuration
+    - Mode Select
+      - Select the "Home Mode" option
+    - Preferences
+      - Uncheck "Start ControlCenter on computer startup"
+  - Device Settings
+    - Device Scan Settings
+      - Image
+        - Click the "Change" button
+          - For option "File Name Style" select "Name_Date"
+          - For option "Name" enter "scan"
+        - For option "Destination Folder" select the desktop folder
+      - OCR
+        - Click the "Change" button
+          - For option "File Name Style" select "Name_Date"
+          - For option "Name" enter "scan"
+        - For option "Destination Folder" select the desktop folder
+      - E-mail
+        - Click the "Change" button
+          - For option "File Name Style" select "Name_Date"
+          - For option "Name" enter "scan"
+        - For option "Destination Folder" select the desktop folder
+      - File
+        - Click the "Change" button
+          - For option "File Name Style" select "Name_Date"
+          - For option "Name" enter "scan"
+        - For option "Destination Folder" select the desktop folder
+        - Uncheck "Show Folder"
+  - Scan a document
+    - Save
+      - Click the "Change" button
+        - For option "File Name Style" select "Name_Date"
+        - For option "Name" enter "scan"
+      - For option "Destination Folder" select the desktop folder
+      - Uncheck "Show Folder"
+
+- Create additional shortcut links
+  - Brother ControlCenter4
+    - Target: "C:\Program Files (x86)\ControlCenter4\BrCcBoot.exe" /model="DCP-7065DN LAN"
+  - Brother Status Monitor
+    - Target: "C:\Program Files (x86)\Browny02\Brother\BrStMonW.exe" DCP-7065DN LAN /BRINFOSHOW
+  - Place shortcut links in start menu folder
+    - C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Brother\
+
+- Delete the folder left by the installers
+  - C:\Brother\
+
+- Settings->Apps
+  - Startup
+    - Turn off "ControlCenter Launcher"
+    - Turn off "Status Monitor Application"
+
+===================================================================================================
+LibreOffice
+===================================================================================================
+
+- Download and run the installer
+  - Use default settings
+
+- Tools->Options
+  - LibreOffice
+    - User Data
+      - Uncheck "Use data for document properties"
+    - View
+      - Under "Icon Size" select "Small" for all options
+      - Uncheck "Use Skia for all rendering" (optional)
+    - Advanced
+      - Navigate to "Open Expert Configuration"
+        - Find the "PickListSize" property and change the value from 25 to 0
+    - Online Update
+      - Uncheck "Check for updates automatically"
+
+---------------------------------------------------------------------------------------------------
+
+Writer
+
+- View->Toolbars
+  - Uncheck "Formatting"
+  - Uncheck "Standard"
+  - Check "Standard (Single Mode)"
+
+- View
+  - Uncheck "Sidebar"
+
+- Tools
+  - Uncheck "Automatic Spell Checking"
+
+- Tools->AutoCorrect->AutoCorrect Options...
+  - Localized Options
+    - Under "Single Quotes" uncheck "Replace"
+    - Under "Double Quotes" uncheck "Replace"
+
+- Tools->Options
+  - LibreOffice Writer
+    - General
+      - For option "Tabs stops" set value to "0.50"
+
+---------------------------------------------------------------------------------------------------
+
+Calc
+
+- View->Toolbars
+  - Uncheck "Formatting"
+  - Uncheck "Standard"
+  - Check "Standard (Single Mode)"
+
+- View
+  - Uncheck "Sidebar"
+
+- Tools
+  - Uncheck "Automatic Spell Checking"
+
+- Tools->AutoCorrect Options...
+  - Localized Options
+    - Under "Single Quotes" uncheck "Replace"
+    - Under "Double Quotes" uncheck "Replace"
+
+- Tools->Options
+  - LibreOffice Calc
+    - General
+      - For option "Measurement unit" select "Point"
+
+---------------------------------------------------------------------------------------------------
+
+Remove file associations (optional)
+
+- See .\libreoffice\open-with-fixup.reg
+
+===================================================================================================
+Visual Studio 2022
+===================================================================================================
+
+- Download and run the installer
+- Install workload ".NET desktop development"
+  - Uncheck "IntelliCode"
+  - Uncheck "Live Share"
+  - Uncheck "ML.NET Model Builder"
+  - Uncheck "GitHub Copilot"
+  - Uncheck "Blend for Visual Studio"
+  - Check "F# desktop language support"
+- Install workload "Desktop development with C++"
+  - Uncheck "IntelliCode"
+  - Uncheck "Live Share"
+  - Note that this workload is what pulls in the editors for HTML, CSS, JSON, etc.
+- Install workload "ASP.NET and web development"
+  - Uncheck "IntelliCode"
+  - Uncheck "Live Share"
+  - Uncheck "GitHub Copilot"
+
+- Optimization service runs when machine sits idle for a while
+
+- Tools->Options
+  - Environment
+    - General
+      - For option "On startup, open" select "Empty Environment"
+    - Accounts
+      - Uncheck "Synchronize Visual Studio settings across devices..."
+    - Fonts and Colors
+      - For option "Show settings for" select "Text Editor"
+      - For option "Font (bold type indicates fixed-width fonts)" select "Consolas"
+      - Under "Display items" set custom colors 
+        - See .\visualstudio\Exported-colors.vssettings
+        - See .\visualstudio\vs-colors.ods
+    - Keyboard
+      - For option "Apply the following..." select "(Default)"
+      - For option "Use new shortcut in" "select" "Text Editor"
+      - Assign "Ctrl+E, Ctrl+D" for command "Edit.FormatDocument"
+      - Assign "Ctrl+E, Ctrl+F" for command "Edit.FormatSelection"
+    - Product Updates
+      - Uncheck "Automatically download updates"
+      - For option "Installation mode" select "Download all, then install"
+    - Tabs and Windows
+      - Document Tabs
+        - Check "Insert new tabs to the right of existing tabs"
+  - Text Editor
+    - General
+      - Settings
+        - Uncheck "Track changes"
+      - Display
+        - Uncheck "Highlight current line"
+        - Uncheck "Show structure guide lines"
+    - All Languages
+      - General
+        - Check "Line numbers" (optional)
+        - Uncheck "Enable single-click URL navigation"
+        - Uncheck "Navigation bar"
+        - Uncheck "Automatic brace completion"
+      - Scroll Bars
+        - For option "Behavior" select "Use bar mode for vertical scroll bar"
+      - Tabs
+        - For option "Tab" select "Insert spaces"
+        - Enter "4" for "Tab size"
+        - Enter "4" for "Indent size"
+      - CodeLens
+        - Uncheck "Enable CodeLens"
+    - C#
+      - Code Style
+        - Formatting
+          - General
+            - Uncheck "Automatically format on paste"
+    - C/C++
+      - Advanced
+        - For option "Auto Surround Mode" select "Never"
+      - Code Style
+        - Formatting
+          - General
+            - For option "When I paste" select "Do nothing"
+    - CSS
+      - Advanced
+        - For option "Automatic formatting" select "On"
+        - For option "Brace positions" select "Expanded"
+        - For option "Format on paste" select "Off"
+        - For option "Hierarchical indentation" select "Off"
+    - F#
+      - Formatting
+        - Uncheck "Re-format indentation on paste (Experimental)"
+    - HTML
+      - Tabs
+        - Enter "2" for "Tab size"
+        - Enter "2" for "Indent size"
+      - Advanced
+        - For option "Format on paste" select "False"
+    - JSON
+      - Advanced
+        - For option "Automatic formatting" select "On"
+        - For option "Brace positions" select "Semi-expanded"
+        - For option "Format on paste" select "Off"
+    - LESS
+      - Advanced
+        - For option "Automatic formatting" select "On"
+        - For option "Brace positions" select "Expanded"
+        - For option "Format on paste" select "Off"
+        - For option "Hierarchical indentation" select "Off"
+    - SCSS
+      - Advanced
+        - For option "Automatic formatting" select "On"
+        - For option "Brace positions" select "Expanded"
+        - For option "Format on paste" select "Off"
+        - For option "Hierarchical indentation" select "Off"
+    - XML
+      - Tabs
+        - Enter "2" for "Tab size"
+        - Enter "2" for "Indent size"
+      - Formatting
+        - Uncheck "On paste from clipboard"
+
+- Tools->Customize...
+  - Commands
+    - Toolbar
+      - Standard
+        - Select "Start Without Debugging"
+          - Navigate to "Modify Selection"
+            - For option "Style" select "Image and Text"
+        - Select "Find in Files"
+          - Navigate to "Modify Selection"
+            - For option "Style" select "Image and Text"
+
+- Extensions->Manage Extensions
+  - Installed
+    - Disable "Visual Studio IntelliCode" (optional)
+
+===================================================================================================
+Visual Studio Code
+===================================================================================================
+
+- Download and run the installer
+  - Check "Add "Open with Code" action to Windows Explorer file context menu"
+  - Check "Add "Open with Code" action to Windows Explorer directory context menu"
+  - Check "Register Code as an editor for supported file types"
+  - Check "Add to PATH (requires shell restart)"
+  - Use all default options otherwise
+
+- Copy file(s) to "%USERPROFILE%\AppData\Roaming\Code\User\"
+  - .\vscode\keybindings.json
+  - .\vscode\settings.json
+
+---------------------------------------------------------------------------------------------------
+
+Uninstall
+
+- %USERPROFILE%\AppData\Local\Programs\Microsoft VS Code\
+- %USERPROFILE%\AppData\Roaming\Code\
+- %USERPROFILE%\.vscode\
+
+===================================================================================================
+PowerShell
+===================================================================================================
+
+- Download and run the installer
+  - Check "Add Powershell to Path Environment Variable"
+  - Check "Add 'Open here' context menus to Explorer"
+  - Check "Add 'Run with PowerShell 7' context menu for PowerShell files"
+  - Use all default options otherwise
+
+- Copy file(s) to "%USERPROFILE%\Documents\PowerShell\"
+  - .\powershell\profile.ps1
+
+===================================================================================================
+Git for Windows
+===================================================================================================
+
+- Download and run the installer
+  - Use default settings for all options
+
+- Copy file(s) to "%USERPROFILE%\"
+  - .\git\.gitconfig
+  - .\git\.minttyrc
+
+- Configure gitk (branch history commit viewer)
+  - Edit->Preferences
+    - Colors
+      - Select RGB(153, 209, 255) for "Select bg"
+    - Fonts
+      - Navigate to "Main font"
+        - For option "Font" select "Segoe UI"
+        - For option "Font style" select "Regular"
+        - For option "Size" select "9"
+      - Navigate to "Diff display font"
+        - For option "Font" select "Consolas"
+        - For option "Font style" select "Regular"
+        - For option "Size" select "10"
+      - Navigate to "User interface font"
+        - For option "Font" select "Segoe UI"
+        - For option "Font style" select "Bold"
+        - For option "Size" select "9"
+
+===================================================================================================
+MSYS2
+===================================================================================================
+
+- Download and run the installer
+  - For option "Installation Folder" enter folder "C:\opt\msys64\"
+  - Use default settings all other options
+
+- Copy file(s) to "C:\opt\msys64\home\%USERNAME%\" (or append to existing)
+  - .\msys2\.bashrc
+  - .\msys2\.gdbinit
+  - .\msys2\.gitconfig
+  - .\msys2\.inputrc
+  - .\msys2\.mintty
+
+- Copy file(s) to "C:\opt\msys64\"
+  - .\msys2\terminal.ico
+
+- Update the base packages
+  - Open the MSYS environment and run "pacman -Syu"
+  - Open the MSYS environment again and run "pacman -Su" to complete
+
+- Install necessary packages
+  - Run command: "pacman -S git"
+  - Run command: "pacman -S vim"
+
+===================================================================================================
+TeX Live
+===================================================================================================
+
+- Download the latest ISO image from one of the mirrors
+- Check the checksum
+  - You can use the Get-FileHash cmdlet in PowerShell
+- Extract the ISO to a local folder
+  - You can use 7-Zip
+- Run command prompt as administrator and navigate to the folder where the ISO was extracted
+- Execute the "install-tl-windows.bat" batch file
+  - For option "Installation root" select folder "C:\opt\texlive\2024\"
+  - For option "Default paper size" select "Letter" (optional)
+  - Use default settings for all other options
+  - It takes about an hour to install
+
+===================================================================================================
+Thinkorswim
+===================================================================================================
+
+- Download and run the installer
+  - Select Integration Options
+    - For option "Start Menu integration" select "Create thinkorswim icon"
+  - System Integration
+    - Uncheck "Perform application registration"
+  - Use all default options otherwise
+
+- Update start menu link to make first letter uppercase as in "Thinkorswim"
+  - C:\ProgramData\Microsoft\Windows\Start Menu\Programs\
+  - %USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\
+
+- Arrange workspace to preferred layout
+  - An the top select the "Charts" tab
+  - On the left minimize gadget "Account Info"
+  - On the left minimize gadget "Live News"
+  - On the left minimize gadget "Trader TV"
+  - On the left add gadget "Level II"
+  - On the right show and hide the "Level II" tab to cause volume pane to resize smaller
+  - Link up all gadgets to track the same ticker symbol
+  - Select 1m timeframe for the main chart
+- Setup->Save Workspace As...
+- Setup->Application Settings...
+  - Startup
+    - For option "Workspace used on startup" select the saved workspace
+
+===================================================================================================
+Context Menu
+===================================================================================================
+
+Shell extension whitelist and blacklist
+
+- Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved
+- Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked
+
+Sections that determine context menu entries
+
+- Computer\HKEY_CLASSES_ROOT\DesktopBackground\Shell
+- Computer\HKEY_CLASSES_ROOT\Directory\shell
+- Computer\HKEY_CLASSES_ROOT\Directory\Background\shell
+- Computer\HKEY_CLASSES_ROOT\Drive\shell
+
+Things that affect the context menu
+
+- Create new value "Extended" to make an entry only visible in extended menu (shift + right-click)
+- Create new value "LegacyDisable" to disable an entry
+
+---------------------------------------------------------------------------------------------------
+
+Setup context menu
+
+- Remove "Scan with Microsoft Defender..." from context menu
+  - Navigate to "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked"
+  - Add "{09A47860-11B0-4DA5-AFA5-26D86198A780}"
+
+- Remove "Share with Skype" from context menu
+  - Navigate to "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked"
+  - Add "{776DBC8D-7347-478C-8D71-791E12EF49D8}"
+
+- See .\windows\context-menu.reg
+- See .\windows\context-menu-undo.reg
+
+===================================================================================================
+Miscellaneous
+===================================================================================================
+
+- OpenHardwareMonitor
+- SpaceMonger
+- SysinternalsSuite
+
+- Copy program files to "C:\opt\"
+- Place shortcut link in start menu folder (optional)
+  - C:\ProgramData\Microsoft\Windows\Start Menu\Programs\

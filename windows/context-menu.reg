@@ -1,0 +1,192 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked]
+"{09A47860-11B0-4DA5-AFA5-26D86198A780}"="Jim"
+"{776DBC8D-7347-478C-8D71-791E12EF49D8}"="Jim"
+
+;--------------------------------------------------------------------------------------------------
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Jim01_MSYS2_MINGW32]
+@="&MSYS2 Bash (MINGW32)"
+"Extended"="Jim"
+"Icon"="C:\\opt\\msys64\\terminal.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Jim01_MSYS2_MINGW32\command]
+@="C:\\opt\\msys64\\usr\\bin\\mintty.exe -i /terminal.ico -t MSYS2 /bin/env CHERE_INVOKING=1 MSYSTEM=MINGW32 MSYS2_PATH_TYPE=inherit /usr/bin/bash --login"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Jim01_MSYS2_MINGW32]
+@="&MSYS2 Bash (MINGW32)"
+"Extended"="Jim"
+"Icon"="C:\\opt\\msys64\\terminal.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Jim01_MSYS2_MINGW32\command]
+@="C:\\opt\\msys64\\usr\\bin\\mintty.exe --dir='%1' -i /terminal.ico -t MSYS2 /bin/env CHERE_INVOKING=1 MSYSTEM=MINGW32 MSYS2_PATH_TYPE=inherit /usr/bin/bash --login"
+
+;--------------------------------------------------------------------------------------------------
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Jim02_MSYS2_MINGW64]
+@="&MSYS2 Bash (MINGW64)"
+"Extended"="Jim"
+"Icon"="C:\\opt\\msys64\\terminal.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Jim02_MSYS2_MINGW64\command]
+@="C:\\opt\\msys64\\usr\\bin\\mintty.exe -i /terminal.ico -t MSYS2 /bin/env CHERE_INVOKING=1 MSYSTEM=MINGW64 MSYS2_PATH_TYPE=inherit /usr/bin/bash --login"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Jim02_MSYS2_MINGW64]
+@="&MSYS2 Bash (MINGW64)"
+"Extended"="Jim"
+"Icon"="C:\\opt\\msys64\\terminal.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Jim02_MSYS2_MINGW64\command]
+@="C:\\opt\\msys64\\usr\\bin\\mintty.exe --dir='%1' -i /terminal.ico -t MSYS2 /bin/env CHERE_INVOKING=1 MSYSTEM=MINGW64 MSYS2_PATH_TYPE=inherit /usr/bin/bash --login"
+
+;--------------------------------------------------------------------------------------------------
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Jim03_MSYS2_UCRT64]
+@="&MSYS2 Bash (UCRT64)"
+"Icon"="C:\\opt\\msys64\\terminal.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Jim03_MSYS2_UCRT64\command]
+@="C:\\opt\\msys64\\usr\\bin\\mintty.exe -i /terminal.ico -t MSYS2 /bin/env CHERE_INVOKING=1 MSYSTEM=UCRT64 MSYS2_PATH_TYPE=inherit /usr/bin/bash --login"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Jim03_MSYS2_UCRT64]
+@="&MSYS2 Bash (UCRT64)"
+"Icon"="C:\\opt\\msys64\\terminal.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Jim03_MSYS2_UCRT64\command]
+@="C:\\opt\\msys64\\usr\\bin\\mintty.exe --dir='%1' -i /terminal.ico -t MSYS2 /bin/env CHERE_INVOKING=1 MSYSTEM=UCRT64 MSYS2_PATH_TYPE=inherit /usr/bin/bash --login"
+
+;--------------------------------------------------------------------------------------------------
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Jim04_MSYS2_MSYS]
+@="&MSYS2 Bash (MSYS)"
+"Icon"="C:\\opt\\msys64\\terminal.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Jim04_MSYS2_MSYS\command]
+@="C:\\opt\\msys64\\usr\\bin\\mintty.exe -i /terminal.ico -t MSYS2 /bin/env CHERE_INVOKING=1 MSYSTEM=MSYS /usr/bin/bash --login"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Jim04_MSYS2_MSYS]
+@="&MSYS2 Bash (MSYS)"
+"Icon"="C:\\opt\\msys64\\terminal.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Jim04_MSYS2_MSYS\command]
+@="C:\\opt\\msys64\\usr\\bin\\mintty.exe --dir='%1' -i /terminal.ico -t MSYS2 /bin/env CHERE_INVOKING=1 MSYSTEM=MSYS /usr/bin/bash --login"
+
+;--------------------------------------------------------------------------------------------------
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\AnyCode]
+"LegacyDisable"="Jim"
+
+[HKEY_CLASSES_ROOT\Directory\shell\AnyCode]
+"LegacyDisable"="Jim"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Jim05_AnyCode]
+@="@C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\MSEnv\\1033\\VSLauncherUI.dll,-1002"
+"Icon"="C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\MSEnv\\VSLauncher.exe,-105"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Jim05_AnyCode\command]
+@="\"C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\MSEnv\\VSLauncher.exe\" \"%V\" source:ExplorerBackground"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Jim05_AnyCode]
+@="@C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\MSEnv\\1033\\VSLauncherUI.dll,-1002"
+"Icon"="C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\MSEnv\\VSLauncher.exe,-105"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Jim05_AnyCode\command]
+@="\"C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\MSEnv\\VSLauncher.exe\" \"%1\" source:Explorer"
+
+;--------------------------------------------------------------------------------------------------
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\VSCode]
+"LegacyDisable"="Jim"
+
+[HKEY_CLASSES_ROOT\Directory\shell\VSCode]
+"LegacyDisable"="Jim"
+
+[HKEY_CLASSES_ROOT\Drive\shell\VSCode]
+"LegacyDisable"="Jim"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Jim06_VSCode]
+@="Open with &Code"
+"Icon"="C:\\Users\\Jim Killingsworth\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Jim06_VSCode\command]
+@="\"C:\\Users\\Jim Killingsworth\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\Jim06_VSCode]
+@="Open with &Code"
+"Icon"="C:\\Users\\Jim Killingsworth\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Jim06_VSCode\command]
+@="\"C:\\Users\\Jim Killingsworth\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" \"%V\""
+
+;--------------------------------------------------------------------------------------------------
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\git_gui]
+"LegacyDisable"="Jim"
+
+[HKEY_CLASSES_ROOT\Directory\shell\git_gui]
+"LegacyDisable"="Jim"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Jim07_git_gui]
+@="Open Git &GUI"
+"Icon"="C:\\Program Files\\Git\\cmd\\git-gui.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Jim07_git_gui\command]
+@="\"C:\\Program Files\\Git\\cmd\\git-gui.exe\" \"--working-dir\" \"%v.\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\Jim07_git_gui]
+@="Open Git &GUI"
+"Icon"="C:\\Program Files\\Git\\cmd\\git-gui.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Jim07_git_gui\command]
+@="\"C:\\Program Files\\Git\\cmd\\git-gui.exe\" \"--working-dir\" \"%1\""
+
+;--------------------------------------------------------------------------------------------------
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\git_shell]
+"LegacyDisable"="Jim"
+
+[HKEY_CLASSES_ROOT\Directory\shell\git_shell]
+"LegacyDisable"="Jim"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Jim08_git_shell]
+@="Open Git &Bash"
+"Icon"="C:\\Program Files\\Git\\git-bash.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Jim08_git_shell\command]
+@="\"C:\\Program Files\\Git\\git-bash.exe\" \"--cd=%v.\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\Jim08_git_shell]
+@="Open Git &Bash"
+"Icon"="C:\\Program Files\\Git\\git-bash.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Jim08_git_shell\command]
+@="\"C:\\Program Files\\Git\\git-bash.exe\" \"--cd=%1\""
+
+;--------------------------------------------------------------------------------------------------
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\PowerShell7x64]
+"LegacyDisable"="Jim"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\PowerShell7x64]
+"Extended"="Jim"
+
+[HKEY_CLASSES_ROOT\Directory\shell\PowerShell7x64]
+"Extended"="Jim"
+
+[HKEY_CLASSES_ROOT\Drive\shell\PowerShell7x64]
+"Extended"="Jim"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Jim09_PowerShell7x64]
+@="Open &PowerShell 7"
+"Icon"="C:\\Program Files\\PowerShell\\7\\pwsh.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Jim09_PowerShell7x64\command]
+@="C:\\Program Files\\PowerShell\\7\\pwsh.exe -NoExit -RemoveWorkingDirectoryTrailingCharacter -WorkingDirectory \"%V!\" -Command \"$host.UI.RawUI.WindowTitle = 'PowerShell 7 (x64)'\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\Jim09_PowerShell7x64]
+@="Open &PowerShell 7"
+"Icon"="C:\\Program Files\\PowerShell\\7\\pwsh.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Jim09_PowerShell7x64\command]
+@="C:\\Program Files\\PowerShell\\7\\pwsh.exe -NoExit -RemoveWorkingDirectoryTrailingCharacter -WorkingDirectory \"%V!\" -Command \"$host.UI.RawUI.WindowTitle = 'PowerShell 7 (x64)'\""
