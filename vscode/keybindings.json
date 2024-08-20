@@ -1,14 +1,35 @@
 [
     //---------------------------------------------------------------------------------------------
-    // Removal of defaults
+    // Settings
+    //---------------------------------------------------------------------------------------------
+    {
+        "key": "ctrl+alt+,",
+        "command": "workbench.action.openSettingsJson"
+    },
+    {
+        "key": "ctrl+alt+.",
+        "command": "workbench.action.openGlobalKeybindingsFile"
+    },
+    //---------------------------------------------------------------------------------------------
+    // Breadcrumbs
     //---------------------------------------------------------------------------------------------
     {
         "key": "ctrl+shift+.",
         "command": "-breadcrumbs.toggleToOn",
         "when": "!config.breadcrumbs.enabled"
     },
+    {
+        "key": "ctrl+shift+.",
+        "command": "breadcrumbs.toggle",
+        "when": "!config.breadcrumbs.enabled"
+    },
+    {
+        "key": "ctrl+shift+,",
+        "command": "breadcrumbs.toggle",
+        "when": "config.breadcrumbs.enabled"
+    },
     //---------------------------------------------------------------------------------------------
-    // Updates to defaults
+    // Inspection
     //---------------------------------------------------------------------------------------------
     {
         "key": "ctrl+shift+i",
@@ -19,19 +40,40 @@
         "key": "ctrl+shift+i",
         "command": "workbench.action.toggleDevTools"
     },
-    //---------------------------------------------------------------------------------------------
-    // Additional keybindings
-    //---------------------------------------------------------------------------------------------
-    {
-        "key": "ctrl+alt+,",
-        "command": "workbench.action.openSettingsJson"
-    },
-    {
-        "key": "ctrl+alt+.",
-        "command": "workbench.action.openGlobalKeybindingsFile"
-    },
     {
         "key": "ctrl+alt+i",
         "command": "editor.action.inspectTMScopes"
+    },
+    //---------------------------------------------------------------------------------------------
+    // Whitespace
+    //---------------------------------------------------------------------------------------------
+    {
+        "key": "ctrl+r ctrl+w",
+        "command": "editor.action.toggleRenderWhitespace"
+    },
+    //---------------------------------------------------------------------------------------------
+    // Word wrap
+    //---------------------------------------------------------------------------------------------
+    {
+        "key": "ctrl+e ctrl+w",
+        "command": "editor.action.toggleWordWrap"
+    },
+    //---------------------------------------------------------------------------------------------
+    // Format
+    //---------------------------------------------------------------------------------------------
+    {
+        "key": "ctrl+e ctrl+d",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    },
+    {
+        "key": "ctrl+e ctrl+d",
+        "command": "editor.action.formatDocument.none",
+        "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
+    },
+    {
+        "key": "ctrl+e ctrl+f",
+        "command": "editor.action.formatSelection",
+        "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
     }
 ]
