@@ -157,7 +157,7 @@
                 },
                 {
                     "scope": [
-                        "source.cs keyword.other.directive.using",
+                        "source.cs keyword.other.directive.using"
                     ],
                     "settings": {
                         "foreground": "#569cd6"
@@ -547,7 +547,7 @@
     // Language settings for Markdown
     //---------------------------------------------------------------------------------------------
     "[markdown]": {
-        "editor.wordWrap": "on",
+        "editor.wordWrap": "on"
     },
     "markdown-mermaid.darkModeTheme": "default",
     "markdown-mermaid.lightModeTheme": "default",
