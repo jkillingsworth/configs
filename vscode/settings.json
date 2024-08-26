@@ -495,8 +495,9 @@
     "editor.bracketPairColorization.enabled": false,
     "editor.codeLens": false,
     "editor.colorDecorators": false,
-    "editor.detectIndentation": false,
+    "editor.detectIndentation": true,
     "editor.guides.highlightActiveIndentation": false,
+    "editor.guides.indentation": false,
     "editor.inlayHints.enabled": "offUnlessPressed",
     "editor.lineNumbers": "on",
     "editor.links": false,
@@ -544,6 +545,20 @@
     //---------------------------------------------------------------------------------------------
     "json.format.keepLines": true,
     //---------------------------------------------------------------------------------------------
+    // Language settings for CSS
+    //---------------------------------------------------------------------------------------------
+    "css.format.braceStyle": "expand",
+    "css.format.newlineBetweenRules": true,
+    "css.format.newlineBetweenSelectors": false,
+    "css.format.spaceAroundSelectorSeparator": true,
+    //---------------------------------------------------------------------------------------------
+    // Language settings for HTML
+    //---------------------------------------------------------------------------------------------
+    "html.format.extraLiners": "",
+    "html.format.wrapAttributes": "preserve",
+    "html.format.wrapLineLength": 0,
+    "html.validate.styles": false,
+    //---------------------------------------------------------------------------------------------
     // Language settings for Markdown
     //---------------------------------------------------------------------------------------------
     "[markdown]": {
@@ -567,7 +582,9 @@
     // Other
     //---------------------------------------------------------------------------------------------
     "files.hotExit": "off",
-    "files.insertFinalNewline": false,
+    "files.insertFinalNewline": true,
+    "overtype.labelInsertMode": "INS",
+    "overtype.labelOvertypeMode": "OVR",
     "security.workspace.trust.enabled": false,
     "task.quickOpen.history": 0,
     "window.commandCenter": false,
