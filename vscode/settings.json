@@ -444,8 +444,10 @@
             //---------------------------------------------------------------------------
             // Highlights for matching words and brackets
             //---------------------------------------------------------------------------
-            "editor.wordHighlightBackground": "#404040fe",
-            "editor.wordHighlightBorder": "#404040",
+            "editor.findMatchBackground": "#ff800070",
+            "editor.findMatchHighlightBackground": "#ff800070",
+            "editor.wordHighlightBackground": "#70707070",
+            "editor.wordHighlightStrongBackground": "#7070ff70",
             "editorBracketMatch.background": "#404040",
             "editorBracketMatch.border": "#404040",
             //---------------------------------------------------------------------------
