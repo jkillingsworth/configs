@@ -444,10 +444,12 @@
             //---------------------------------------------------------------------------
             // Highlights for matching words and brackets
             //---------------------------------------------------------------------------
-            "editor.findMatchBackground": "#ff800070",
-            "editor.findMatchHighlightBackground": "#ff800070",
-            "editor.wordHighlightBackground": "#70707070",
-            "editor.wordHighlightStrongBackground": "#7070ff70",
+            "editor.findMatchBackground": "#d7d040",
+            "editor.findMatchForeground": "#000000",
+            "editor.findMatchHighlightBackground": "#d7d040c0",
+            "editor.findMatchHighlightForeground": "#000000e0",
+            "editor.wordHighlightBackground": "#80808040",
+            "editor.wordHighlightStrongBackground": "#8080ff60",
             "editorBracketMatch.background": "#404040",
             "editorBracketMatch.border": "#404040",
             //---------------------------------------------------------------------------
@@ -462,6 +464,7 @@
             "editorWarning.foreground": "#95db7d",
             "editorOverviewRuler.errorForeground": "#f06868",
             "editorOverviewRuler.warningForeground": "#95db7d",
+            "editorOverviewRuler.findMatchForeground": "#d7d040c0",
             //---------------------------------------------------------------------------
             // Gutter indicators and icons
             //---------------------------------------------------------------------------
@@ -537,6 +540,7 @@
     "FSharp.interfaceStubGeneration": false,
     "FSharp.lineLens.enabled": "never",
     "FSharp.pipelineHints.enabled": false,
+    "FSharp.showExplorerOnStartup": false,
     //---------------------------------------------------------------------------------------------
     // Language settings for PowerShell
     //---------------------------------------------------------------------------------------------
