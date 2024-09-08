@@ -110,7 +110,7 @@
               <Item Name="Excluded Code" Foreground="0x00606060" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="Comment" Foreground="0x00606060" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="MarkerFormatDefinition/ScopeHighlight" Foreground="0x00F7EBE7" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="MarkerFormatDefinition/FindHighlight" Foreground="0x00000000" Background="0x00FF40FF" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="MarkerFormatDefinition/FindHighlight" Foreground="0x00000000" Background="0x0040D0D8" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="XML Doc Tag" Foreground="0x00606060" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="XML Doc Comment" Foreground="0x00606060" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="MarkerFormatDefinition/HighlightedReference" Foreground="0x02000000" Background="0x00505050" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
