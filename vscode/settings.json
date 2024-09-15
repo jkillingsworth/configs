@@ -588,7 +588,7 @@
     // Other
     //---------------------------------------------------------------------------------------------
     "files.hotExit": "off",
-    "files.insertFinalNewline": true,
+    "files.insertFinalNewline": false,
     "overtype.labelInsertMode": "INS",
     "overtype.labelOvertypeMode": "OVR",
     "security.workspace.trust.enabled": false,
