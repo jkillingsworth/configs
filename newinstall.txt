@@ -593,7 +593,7 @@ Writer
   - Check "Standard (Single Mode)"
 
 - View
-  - Uncheck "Sidebar"
+  - Uncheck "Sidbar"
 
 - Tools
   - Uncheck "Automatic Spell Checking"
@@ -654,11 +654,14 @@ Visual Studio 2022
 - Install workload "Desktop development with C++"
   - Uncheck "IntelliCode"
   - Uncheck "Live Share"
-  - Note that this workload is what pulls in the editors for HTML, CSS, JSON, etc.
+  - Uncheck "GitHub Copilot"
+  - Note that this workload pulls in the editors for HTML, CSS, JSON, etc.
 - Install workload "ASP.NET and web development"
   - Uncheck "IntelliCode"
   - Uncheck "Live Share"
   - Uncheck "GitHub Copilot"
+  - Check ".NET 9.0 WebAssembly Build Tools" (optional)
+  - Check ".NET 8.0 WebAssembly Build Tools" (optional)
 
 - Optimization service runs when machine sits idle for a while
 
@@ -690,6 +693,7 @@ Visual Studio 2022
       - Settings
         - Uncheck "Track changes"
       - Display
+        - Uncheck "Automatically surround selections when typing quotes or brackets"
         - Uncheck "Highlight current line"
         - Uncheck "Show structure guide lines"
     - All Languages
