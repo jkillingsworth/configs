@@ -711,6 +711,8 @@ Visual Studio 2022
       - CodeLens
         - Uncheck "Enable CodeLens"
     - C#
+      - Advanced
+        - Check "Place 'System' directives first when sorting usings"
       - Code Style
         - Formatting
           - General
