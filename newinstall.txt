@@ -717,6 +717,8 @@ Visual Studio 2022
         - Formatting
           - General
             - Uncheck "Automatically format on paste"
+      - IntelliSense
+        - Uncheck "Automatically complete statement on semicolon"
     - C/C++
       - Advanced
         - For option "Auto Surround Mode" select "Never"
