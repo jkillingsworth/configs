@@ -31,6 +31,7 @@ Windows 10 22H2
     - Navigate to "Sound Control Panel"
       - Sounds
         - For option "Asterisk" select "Windows Information Bar.wav"
+        - For option "Critical Stop" select "Windows Hardware Fail.wav"
         - For option "Default Beep" select "Windows Default.wav"
         - For option "Exclamation" select "Windows Baloon.wav"
         - For option "Notification" select "Windows Proximity Notification.wav"
@@ -251,6 +252,22 @@ Windows 10 22H2
   - Run command "Disable-MMAgent -MemoryCompression"
   - Run command "Disable-MMAgent -PageCombining"
   - Run command "Get-MMAgent" to verify
+
+---------------------------------------------------------------------------------------------------
+
+Microsoft Defender Antivirus (optional)
+
+- Edit group policy
+  - Computer Configuration
+    - Administrative Templates
+      - Windows Components
+        - Microsoft Defender Antivirus
+          - Enable "Turn off Microsoft Defender Antivirus"
+          - Enable "Turn off routine remediation"
+          - Real-time Protection
+            - Enable "Turn off real-time protection"
+
+- See .\windows\microsoft-defender-antivirus.reg
 
 ---------------------------------------------------------------------------------------------------
 
