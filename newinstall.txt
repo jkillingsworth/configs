@@ -110,7 +110,7 @@ Windows 10 22H2
     - Turn off "Show news and interests on the taskbar"
     - Edit group policy
       - Computer Configuration
-        - Administrative Templates 
+        - Administrative Templates
           - News and interests
             - Disable "Enable news and interets on the taskbar"
     - Move taskbar to monitor #1
@@ -206,7 +206,7 @@ Windows 10 22H2
         - Turn off "Tamper protection"
         - Edit group policy
           - Computer Configuration
-            - Administrative Templates 
+            - Administrative Templates
               - Windows Components
                 - Microsoft Defender Antivirus
                   - Real-time Protection
@@ -674,7 +674,7 @@ Visual Studio 2022
     - Fonts and Colors
       - For option "Show settings for" select "Text Editor"
       - For option "Font (bold type indicates fixed-width fonts)" select "Consolas"
-      - Under "Display items" set custom colors 
+      - Under "Display items" set custom colors
         - See .\visualstudio\Exported-colors.vssettings
         - See .\visualstudio\vs-colors.ods
     - Keyboard
