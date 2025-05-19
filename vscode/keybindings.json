@@ -1,6 +1,6 @@
 [
     //---------------------------------------------------------------------------------------------
-    // Settings
+    // Settings and keybindings
     //---------------------------------------------------------------------------------------------
     {
         "key": "ctrl+alt+,",
@@ -75,5 +75,71 @@
         "key": "ctrl+e ctrl+f",
         "command": "editor.action.formatSelection",
         "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
+    },
+    //---------------------------------------------------------------------------------------------
+    // Cursor selection
+    //---------------------------------------------------------------------------------------------
+    {
+        "key": "shift+alt+up",
+        "command": "cursorColumnSelectUp",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "cursorColumnSelectDown",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+left",
+        "command": "cursorColumnSelectLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+right",
+        "command": "cursorColumnSelectRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+home",
+        "command": "cursorHomeSelect",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+end",
+        "command": "cursorEndSelect",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+pageup",
+        "command": "cursorColumnSelectPageUp",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+alt+pagedown",
+        "command": "cursorColumnSelectPageDown",
+        "when": "textInputFocus"
+    },
+    //---------------------------------------------------------------------------------------------
+    // Cursor selection (override swap)
+    //---------------------------------------------------------------------------------------------
+    {
+        "key": "ctrl+shift+alt+up",
+        "command": "editor.action.copyLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+alt+down",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+alt+left",
+        "command": "editor.action.smartSelect.shrink",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+right",
+        "command": "editor.action.smartSelect.expand",
+        "when": "editorTextFocus"
     }
 ]

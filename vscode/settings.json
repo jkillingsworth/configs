@@ -500,17 +500,20 @@
     "editor.bracketPairColorization.enabled": false,
     "editor.codeLens": false,
     "editor.colorDecorators": false,
-    "editor.detectIndentation": true,
+    "editor.detectIndentation": false,
     "editor.guides.highlightActiveIndentation": false,
     "editor.guides.indentation": false,
     "editor.inlayHints.enabled": "offUnlessPressed",
+    "editor.insertSpaces": true,
     "editor.lineNumbers": "on",
     "editor.links": false,
     "editor.matchBrackets": "near",
     "editor.minimap.enabled": false,
+    "editor.renderFinalNewline": "dimmed",
     "editor.renderLineHighlight": "none",
     "editor.renderWhitespace": "none",
     "editor.roundedSelection": false,
+    "editor.tabSize": 4,
     "editor.wordWrap": "off",
     //---------------------------------------------------------------------------------------------
     // General settings for workbench
@@ -551,19 +554,28 @@
     //---------------------------------------------------------------------------------------------
     "json.format.keepLines": false,
     //---------------------------------------------------------------------------------------------
+    // Language settings for HTML
+    //---------------------------------------------------------------------------------------------
+    "[html]": {
+        "editor.tabSize": 2
+    },
+    "html.format.extraLiners": "",
+    "html.format.wrapAttributes": "preserve",
+    "html.format.wrapLineLength": 0,
+    "html.validate.styles": false,
+    //---------------------------------------------------------------------------------------------
+    // Language settings for XML
+    //---------------------------------------------------------------------------------------------
+    "[xml]": {
+        "editor.tabSize": 2
+    },
+    //---------------------------------------------------------------------------------------------
     // Language settings for CSS
     //---------------------------------------------------------------------------------------------
     "css.format.braceStyle": "expand",
     "css.format.newlineBetweenRules": true,
     "css.format.newlineBetweenSelectors": false,
     "css.format.spaceAroundSelectorSeparator": true,
-    //---------------------------------------------------------------------------------------------
-    // Language settings for HTML
-    //---------------------------------------------------------------------------------------------
-    "html.format.extraLiners": "",
-    "html.format.wrapAttributes": "preserve",
-    "html.format.wrapLineLength": 0,
-    "html.validate.styles": false,
     //---------------------------------------------------------------------------------------------
     // Language settings for Markdown
     //---------------------------------------------------------------------------------------------
@@ -587,10 +599,13 @@
     //---------------------------------------------------------------------------------------------
     // Other
     //---------------------------------------------------------------------------------------------
+    "code-eol.crlfCharacter": "↵",
+    "code-eol.highlightExtraWhitespace": true,
+    "code-eol.newlineCharacter": "↓",
+    "code-eol.returnCharacter": "←",
     "files.hotExit": "off",
     "files.insertFinalNewline": false,
-    "overtype.labelInsertMode": "INS",
-    "overtype.labelOvertypeMode": "OVR",
+    "files.trimFinalNewlines": false,
     "security.workspace.trust.enabled": false,
     "task.quickOpen.history": 0,
     "window.commandCenter": false,
