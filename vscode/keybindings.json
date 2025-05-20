@@ -82,32 +82,32 @@
     {
         "key": "shift+alt+up",
         "command": "cursorColumnSelectUp",
-        "when": "editorTextFocus && !editorReadonly"
+        "when": "textInputFocus"
     },
     {
         "key": "shift+alt+down",
         "command": "cursorColumnSelectDown",
-        "when": "editorTextFocus && !editorReadonly"
+        "when": "textInputFocus"
     },
     {
         "key": "shift+alt+left",
         "command": "cursorColumnSelectLeft",
-        "when": "editorTextFocus"
+        "when": "textInputFocus"
     },
     {
         "key": "shift+alt+right",
         "command": "cursorColumnSelectRight",
-        "when": "editorTextFocus"
+        "when": "textInputFocus"
     },
     {
         "key": "shift+alt+home",
         "command": "cursorHomeSelect",
-        "when": "editorTextFocus"
+        "when": "textInputFocus"
     },
     {
         "key": "shift+alt+end",
         "command": "cursorEndSelect",
-        "when": "editorTextFocus"
+        "when": "textInputFocus"
     },
     {
         "key": "shift+alt+pageup",
