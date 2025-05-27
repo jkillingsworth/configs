@@ -797,6 +797,11 @@ Visual Studio 2022
   - Installed
     - Disable "Visual Studio IntelliCode" (optional)
 
+- Update the Roslyn inactivity timeout to keep the compiler server hot
+  - Navigate to "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn\"
+  - Edit the "VBCSCompiler.exe.config" file
+  - Change the "keepalive" value from "600" to "-1"
+
 ===================================================================================================
 Visual Studio Code
 ===================================================================================================
