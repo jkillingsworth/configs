@@ -713,6 +713,8 @@ Visual Studio 2022
         - Uncheck "Automatically surround selections when typing quotes or brackets"
         - Uncheck "Highlight current line"
         - Uncheck "Show structure guide lines"
+    - CodeLens
+      - Uncheck "Enable CodeLens"
     - All Languages
       - General
         - Check "Line numbers" (optional)
@@ -725,8 +727,6 @@ Visual Studio 2022
         - For option "Tab" select "Insert spaces"
         - Enter "4" for "Tab size"
         - Enter "4" for "Indent size"
-      - CodeLens
-        - Uncheck "Enable CodeLens"
     - C#
       - Advanced
         - Check "Place 'System' directives first when sorting usings"
@@ -800,7 +800,7 @@ Visual Studio 2022
 - Update the Roslyn inactivity timeout to keep the compiler server hot
   - Navigate to "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn\"
   - Edit the "VBCSCompiler.exe.config" file
-  - Change the "keepalive" value from "600" to "-1"
+  - Change the "keepalive" value from "600" to "86400"
 
 ===================================================================================================
 Visual Studio Code
