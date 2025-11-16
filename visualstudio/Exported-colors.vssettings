@@ -1,37 +1,55 @@
 <UserSettings>
-  <ApplicationIdentity version="17.0"/>
+  <ApplicationIdentity version="18.0"/>
   <ToolsOptions>
     <ToolsOptionsCategory name="Environment" RegisteredName="Environment"/>
   </ToolsOptions>
   <Category name="Environment_Group" RegisteredName="Environment_Group">
-    <Category name="Environment_FontsAndColors" Category="{1EDA5DD4-927A-43a7-810E-7FD247D0DA1D}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_FontsAndColors" PackageName="Visual Studio Environment Package">
+    <Category name="Environment_FontsAndColors" Category="{1EDA5DD4-927A-43a7-810E-7FD247D0DA1D}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_FontsAndColors" PackageName="CVsShellPackage">
       <PropertyValue name="Version">2</PropertyValue>
       <FontsAndColors Version="2.0">
         <Theme Id="{1DED0138-47CE-435E-84EF-9EC1F439B749}"/>
         <Categories>
-          <Category GUID="{FA937F7B-C0D2-46B8-9F10-A7A92642B384}" FontIsDefault="Yes">
+          <Category GUID="{E0187991-B458-4F7E-8CA9-42C9A573B56C}" FontName="Consolas" FontSize="10" CharSet="1" FontIsDefault="No">
             <Items>
-              <Item Name="Artboard Background" Foreground="0x02000000" Background="0x02000000"/>
-            </Items>
-          </Category>
-          <Category GUID="{B36B0228-DBAD-4DB0-B9C7-2AD3E572010F}" FontName="Segoe UI" FontSize="9" CharSet="1" FontIsDefault="No">
-            <Items>
-              <Item Name="Odd Row Items" Foreground="0x00000000" Background="0x00FFFFFF" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="Even Row Items" Foreground="0x00000000" Background="0x00FFFFFF" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="Not Downloaded" Foreground="0x00999999" Background="0x00FFFFFF" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="Target Only" Foreground="0x00000000" Background="0x00FFFFFF" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="Source Only" Foreground="0x00000000" Background="0x00FFFFFF" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="Identical content" Foreground="0x00000000" Background="0x00FFFFFF" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="Different content" Foreground="0x000014E5" Background="0x00FFFFFF" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-            </Items>
-          </Category>
-          <Category GUID="{58E96763-1D3B-4E05-B6BA-FF7115FD0B7B}" FontName="Consolas" FontSize="10" CharSet="1" FontIsDefault="No">
-            <Items>
-              <Item Name="Visible Whitespace" Foreground="0x00505050" Background="0x00FFFFFF" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="XSLT Keyword" Foreground="0x00E0A0E0" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="XML Attribute Quotes" Foreground="0x02000000" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="XML Attribute Value" Foreground="0x02000000" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="XML Processing Instruction" Foreground="0x00E0A0E0" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="XML Attribute" Foreground="0x00FEDC9C" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="XML Comment" Foreground="0x00606060" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="XML Text" Foreground="0x02000000" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="String" Foreground="0x00C080C0" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="Comment" Foreground="0x00606060" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
             </Items>
           </Category>
           <Category GUID="{75A05685-00A8-4DED-BAE5-E7A50BFA929A}" FontName="Consolas" FontSize="10" CharSet="1" FontIsDefault="No">
             <Items>
+              <Item Name="brace matching" Foreground="0x02000000" Background="0x00505050" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="xml doc comment - text" Foreground="0x00606060" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="xml doc comment - processing instruction" Foreground="0x00606060" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="xml doc comment - name" Foreground="0x00606060" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="xml doc comment - entity reference" Foreground="0x00606060" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="xml doc comment - delimiter" Foreground="0x00606060" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="xml doc comment - comment" Foreground="0x00606060" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="xml doc comment - cdata section" Foreground="0x00606060" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="xml doc comment - attribute value" Foreground="0x00606060" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="xml doc comment - attribute quotes" Foreground="0x00606060" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="xml doc comment - attribute name" Foreground="0x00606060" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="extension method name" Foreground="0x02000000" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="method name" Foreground="0x02000000" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="parameter name" Foreground="0x02000000" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="local name" Foreground="0x02000000" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="type parameter name" Foreground="0x00B0C94E" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="struct name" Foreground="0x00B0C94E" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="interface name" Foreground="0x00B0C94E" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="enum name" Foreground="0x00B0C94E" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="operator - overloaded" Foreground="0x02000000" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="keyword - control" Foreground="0x00D69C56" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="string - escape character" Foreground="0x00F0A0A0" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="string - verbatim" Foreground="0x00C080C0" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="Inline Rename Field Text" Foreground="0x001E1E1E" Background="0x004080FF" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="MarkerFormatDefinition/HighlightedWrittenReference" Foreground="0x02000000" Background="0x00505050" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="MarkerFormatDefinition/HighlightedDefinition" Foreground="0x00505050" Background="0x00505050" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="FSharp.DisposableLocalValue" Foreground="0x00B8F0FF" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="FSharp.DisposableType" Foreground="0x00B0C94E" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="FSharp.Printf" Foreground="0x00F0A0A0" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
@@ -68,32 +86,6 @@
               <Item Name="CSS Selector" Foreground="0x0085D5E9" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="CSS Comment" Foreground="0x00606060" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="JSON Property Name" Foreground="0x00FEDC9C" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="brace matching" Foreground="0x02000000" Background="0x00505050" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="xml doc comment - text" Foreground="0x00606060" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="xml doc comment - processing instruction" Foreground="0x00606060" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="xml doc comment - name" Foreground="0x00606060" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="xml doc comment - entity reference" Foreground="0x00606060" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="xml doc comment - delimiter" Foreground="0x00606060" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="xml doc comment - comment" Foreground="0x00606060" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="xml doc comment - cdata section" Foreground="0x00606060" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="xml doc comment - attribute value" Foreground="0x00606060" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="xml doc comment - attribute quotes" Foreground="0x00606060" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="xml doc comment - attribute name" Foreground="0x00606060" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="extension method name" Foreground="0x02000000" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="method name" Foreground="0x02000000" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="parameter name" Foreground="0x02000000" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="local name" Foreground="0x02000000" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="type parameter name" Foreground="0x00B0C94E" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="struct name" Foreground="0x00B0C94E" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="interface name" Foreground="0x00B0C94E" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="enum name" Foreground="0x00B0C94E" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="operator - overloaded" Foreground="0x02000000" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="keyword - control" Foreground="0x00D69C56" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="string - escape character" Foreground="0x00F0A0A0" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="string - verbatim" Foreground="0x00C080C0" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="Inline Rename Field Text" Foreground="0x001E1E1E" Background="0x004080FF" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="MarkerFormatDefinition/HighlightedWrittenReference" Foreground="0x02000000" Background="0x00505050" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="MarkerFormatDefinition/HighlightedDefinition" Foreground="0x00505050" Background="0x00505050" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="HtmlClientTemplateValueFormatDefinition" Foreground="0x00C080C0" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="HtmlClientTemplateTagFormatDefinition" Foreground="0x00E0A0E0" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="HtmlClientTemplateSeparatorFormatDefinition" Foreground="0x01000000" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
@@ -102,6 +94,9 @@
               <Item Name="ScssVariableReferenceFormat" Foreground="0x00859DD6" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="ScssVariableDeclarationClassificationFormat" Foreground="0x00859DD6" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="Visible Whitespace" Foreground="0x00505050" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="Track reverted changes" Foreground="0x02000000" Background="0x00FFB455" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="Track Changes after save" Foreground="0x02000000" Background="0x00606060" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="Track Changes before save" Foreground="0x02000000" Background="0x0080FFFF" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="syntax error" Foreground="0x006868F0" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="String" Foreground="0x00C080C0" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="Literal" Foreground="0x02000000" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
@@ -109,30 +104,30 @@
               <Item Name="Preprocessor Keyword" Foreground="0x00A0A0A0" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="Excluded Code" Foreground="0x00606060" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="Comment" Foreground="0x00606060" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="MarkerFormatDefinition/ScopeHighlight" Foreground="0x00F7EBE7" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="MarkerFormatDefinition/FindHighlight" Foreground="0x00000000" Background="0x0040D0D8" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="XML Doc Tag" Foreground="0x00606060" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="XML Doc Comment" Foreground="0x00606060" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="MarkerFormatDefinition/HighlightedReference" Foreground="0x02000000" Background="0x00505050" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
             </Items>
           </Category>
-          <Category GUID="{E0187991-B458-4F7E-8CA9-42C9A573B56C}" FontName="Consolas" FontSize="10" CharSet="1" FontIsDefault="No">
+          <Category GUID="{58E96763-1D3B-4E05-B6BA-FF7115FD0B7B}" FontName="Consolas" FontSize="10" CharSet="1" FontIsDefault="No">
             <Items>
-              <Item Name="XSLT Keyword" Foreground="0x00E0A0E0" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="XML Attribute Quotes" Foreground="0x02000000" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="XML Attribute Value" Foreground="0x02000000" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="XML Processing Instruction" Foreground="0x00E0A0E0" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="XML Attribute" Foreground="0x00FEDC9C" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="XML Comment" Foreground="0x00606060" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="XML Text" Foreground="0x02000000" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="String" Foreground="0x00C080C0" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="Comment" Foreground="0x00606060" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="Visible Whitespace" Foreground="0x00505050" Background="0x00FFFFFF" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
             </Items>
           </Category>
           <Category GUID="{FF349800-EA43-46C1-8C98-878E78F46501}" FontName="Consolas" FontSize="10" CharSet="1" FontIsDefault="No">
             <Items>
+              <Item Name="Brace Matching (Rectangle)" Background="0x00505050" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="Track Changes after save" Background="0x00606060" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="Track Changes before save" Background="0x0080FFFF" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="syntax error" Foreground="0x006868F0" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
             </Items>
+          </Category>
+          <Category GUID="{B36B0228-DBAD-4DB0-B9C7-2AD3E572010F}" FontName="Segoe UI" FontSize="9" CharSet="1" FontIsDefault="No">
+            <Items/>
+          </Category>
+          <Category GUID="{C4AC9E09-4F89-42EE-8E40-C274D224C122}" FontName="Consolas" FontSize="10" CharSet="1" FontIsDefault="No">
+            <Items/>
           </Category>
         </Categories>
       </FontsAndColors>

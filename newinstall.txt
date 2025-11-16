@@ -803,6 +803,176 @@ Visual Studio 2022
   - Change the "keepalive" value from "600" to "86400"
 
 ===================================================================================================
+Visual Studio 2026
+===================================================================================================
+
+- Download and run the installer
+- Install workload ".NET desktop development"
+  - Uncheck "IntelliCode"
+  - Uncheck "GitHub Copilot"
+  - Uncheck "GitHub Copilot app modernization"
+  - Uncheck "Live Share"
+  - Uncheck "ML.NET Model Builder"
+  - Uncheck "Blend for Visual Studio"
+  - Check "F# desktop language support"
+- Install workload "Desktop development with C++"
+  - Uncheck "IntelliCode"
+  - Uncheck "GitHub Copilot"
+  - Uncheck "GitHub Copilot app modernization"
+  - Uncheck "Live Share"
+  - Note that this workload pulls in the editors for HTML, CSS, JSON, etc.
+- Install workload "ASP.NET and web development"
+  - Uncheck "IntelliCode"
+  - Uncheck "GitHub Copilot"
+  - Uncheck "GitHub Copilot app modernization"
+  - Uncheck "Live Share"
+  - Check ".NET 10.0 WebAssembly Build Tools" (optional)
+
+- Optimization service runs when machine sits idle for a while
+
+- Tools->Options
+  - Environment
+    - General
+      - For option "On startup, open" select "Empty Environment"
+    - Tabs
+      - Document Tabs
+        - Check "Insert new tabs to the right of existing tabs"
+        - Uncheck "Bold text on selected tabs"
+        - For option "Dirty indicator" select "Dot"
+    - More Settings
+      - Accounts
+        - Uncheck "Synchronize Visual Studio settings across devices..."
+      - Fonts and Colors
+        - For option "Show settings for" select "Text Editor"
+        - For option "Font (bold type indicates fixed-width fonts)" select "Consolas"
+        - Under "Display items" set custom colors
+          - See .\visualstudio\Exported-colors.vssettings
+          - See .\visualstudio\vs-colors.ods
+      - Keyboard
+        - For option "Apply the following..." select "(Default)"
+        - For option "Use new shortcut in" "select" "Text Editor"
+        - Assign "Ctrl+E, Ctrl+D" for command "Edit.FormatDocument"
+        - Assign "Ctrl+E, Ctrl+F" for command "Edit.FormatSelection"
+      - Product Updates
+        - Uncheck "Automatically download updates"
+        - For option "Installation mode" select "Download all, then install"
+  - Projects and Solutions
+    - Locations
+      - Set "Project location" to desktop address
+  - Text Editor
+    - General
+      - Uncheck "Track changes"
+      - Display
+        - Uncheck "Automatically surround selections when typing quotes or brackets"
+        - Uncheck "Highlight current line"
+        - Uncheck "Show structure guide lines"
+        - For option "Outlining margin style" select "Always show expanders and vertical line"
+    - Advanced
+      - Uncheck "Adaptive formatting"
+    - CodeLens
+      - Uncheck "Enable CodeLens"
+  - Languages
+    - Defaults
+      - General
+        - Check "Line numbers" (optional)
+        - Uncheck "Enable single-click URL navigation"
+        - Uncheck "Navigation bar"
+        - Uncheck "Automatic brace completion"
+      - Scroll Bars
+        - For option "Vertical scroll bar mode" select "Bar mode"
+      - Tabs
+        - Enter "4" for "Tab size"
+        - Enter "4" for "Indent size"
+        - For option "Tab character" select "Insert spaces"
+    - C#
+      - More Settings
+        - Advanced
+          - Check "Place 'System' directives first when sorting usings"
+        - Code Style
+          - Formatting
+            - General
+              - Uncheck "Automatically format on paste"
+      - Intellisense
+        - Uncheck "Automatically complete statement on semicolon"
+    - C/C++
+      - Tabs
+        - For option "Tab character" select "Insert spaces"
+      - Text editor
+        - For option "Automatically surround selection when typing..." select "Never"
+      - Code Style
+        - Formatting
+          - General
+            - For option "When I paste" select "Do nothing"
+    - CSS
+      - Advanced
+        - Formatting
+          - For option "Brace position style" select "Expanded"
+          - Uncheck "Hierarchical indent"
+          - Check "Automatic format"
+          - Uncheck "Format on paste"
+    - F#
+      - More Settings
+        - Formatting
+          - Uncheck "Re-format indentation on paste (Experimental)"
+    - HTML
+      - Tabs
+        - Enter "2" for "Tab size"
+        - Enter "2" for "Indent size"
+      - Advanced
+        - Formatting
+          - Uncheck "Format on paste"
+    - JSON
+      - Tabs
+        - Enter "2" for "Tab size"
+        - Enter "2" for "Indent size"
+      - Advanced
+        - Formatting
+          - For option "Brace position style" select "Semi-expanded"
+          - Uncheck "Automatic structure completion"
+          - Uncheck "Automatic format"
+          - Uncheck "Format on paste"
+    - LESS
+      - Advanced
+        - Formatting
+          - For option "Brace position style" select "Expanded"
+          - Uncheck "Hierarchical indent"
+          - Check "Automatic format"
+          - Uncheck "Format on paste"
+    - SCSS
+      - Advanced
+        - Formatting
+          - For option "Brace position style" select "Expanded"
+          - Uncheck "Hierarchical indent"
+          - Check "Automatic format"
+          - Uncheck "Format on paste"
+    - XML
+      - Scroll Bars
+        - For option "Vertical scroll bar mode" select "Bar mode"
+      - Tabs
+        - Enter "2" for "Tab size"
+        - Enter "2" for "Indent size"
+        - For option "Tab character" select "Insert spaces"
+      - More Settings
+        - Formatting
+          - Uncheck "On paste from clipboard"
+
+- Tools->Customize...
+  - Commands
+    - Toolbar
+      - Standard
+        - Select "Start Without Debugging"
+          - Navigate to "Modify Selection"
+            - For option "Style" select "Image and Text"
+        - Select "Find in Files"
+          - Navigate to "Modify Selection"
+            - For option "Style" select "Image and Text"
+
+- Update the Roslyn inactivity timeout to keep the compiler server hot
+  - Navigate to "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Roslyn"
+  - Edit the "VBCSCompiler.exe.config" file
+  - Change the "keepalive" value from "600" to "86400"
+
+===================================================================================================
 Visual Studio Code
 ===================================================================================================
 
