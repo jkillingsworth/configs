@@ -892,6 +892,8 @@ Visual Studio 2026
           - Formatting
             - General
               - Uncheck "Automatically format on paste"
+            - Indentation
+              - Uncheck "Indent case contents (when block)"
       - Intellisense
         - Uncheck "Automatically complete statement on semicolon"
     - C/C++
@@ -955,6 +957,9 @@ Visual Studio 2026
       - More Settings
         - Formatting
           - Uncheck "On paste from clipboard"
+  - Debugging
+    - General
+      - Uncheck "Enable Just My Code"
 
 - Tools->Customize...
   - Commands

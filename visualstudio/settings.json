@@ -58,5 +58,6 @@
   "languages.xml.scrollbars.verticalScrollBarMode": "bar",
   "languages.xml.tabs.tabSize": 2,
   "languages.xml.tabs.indentSize": 2,
-  "languages.xml.tabs.character": "space"
+  "languages.xml.tabs.character": "space",
+  "debugging.general.justMyCode": false
 }
