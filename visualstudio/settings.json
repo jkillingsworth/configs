@@ -1,16 +1,13 @@
 /* Visual Studio Settings File */
 {
-  "languages.dockerfile.general.wordWrapVisualGlyphs": false,
   "languages.fSharpInteractive.general.wordWrapVisualGlyphs": false,
   "languages.memory.general.wordWrapVisualGlyphs": false,
   "languages.register.general.wordWrapVisualGlyphs": false,
-  "languages.typeScript.general.wordWrapVisualGlyphs": false,
   "languages.vbScript.general.wordWrapVisualGlyphs": false,
   "languages.xml.general.wordWrapVisualGlyphs": false,
   "languages.defaults.general.wordWrapVisualGlyphs": true,
   "windowsFormsDesigner.general.refactoring.enableRefactoringOnRename": true,
   "environment.general.environmentStart": "empty",
-  "environment.security.trust.locations": [],
   "environment.tabs.documentTabs.insertRight": true,
   "environment.tabs.documentTabs.boldSelectedTabs": false,
   "environment.tabs.documentTabs.dirtyIndicator": "dot",

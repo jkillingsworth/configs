@@ -821,7 +821,7 @@ Visual Studio 2026
   - Uncheck "GitHub Copilot app modernization"
   - Uncheck "Live Share"
   - Note that this workload pulls in the editors for HTML, CSS, JSON, etc.
-- Install workload "ASP.NET and web development"
+- Install workload "ASP.NET and web development" (optional)
   - Uncheck "IntelliCode"
   - Uncheck "GitHub Copilot"
   - Uncheck "GitHub Copilot app modernization"
@@ -841,7 +841,7 @@ Visual Studio 2026
         - For option "Dirty indicator" select "Dot"
     - More Settings
       - Accounts
-        - Uncheck "Synchronize Visual Studio settings across devices..."
+        - Uncheck "Synchronize settings across devices and installs..."
       - Fonts and Colors
         - For option "Show settings for" select "Text Editor"
         - For option "Font (bold type indicates fixed-width fonts)" select "Consolas"
@@ -885,6 +885,8 @@ Visual Studio 2026
         - Enter "4" for "Indent size"
         - For option "Tab character" select "Insert spaces"
     - C#
+      - Intellisense
+        - Uncheck "Automatically complete statement on semicolon"
       - More Settings
         - Advanced
           - Check "Place 'System' directives first when sorting usings"
@@ -894,8 +896,6 @@ Visual Studio 2026
               - Uncheck "Automatically format on paste"
             - Indentation
               - Uncheck "Indent case contents (when block)"
-      - Intellisense
-        - Uncheck "Automatically complete statement on semicolon"
     - C/C++
       - Tabs
         - For option "Tab character" select "Insert spaces"
@@ -972,10 +972,15 @@ Visual Studio 2026
           - Navigate to "Modify Selection"
             - For option "Style" select "Image and Text"
 
-- Update the Roslyn inactivity timeout to keep the compiler server hot
+- Update the Roslyn inactivity timeout to keep the compiler server hot (option 1)
   - Navigate to "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Roslyn"
   - Edit the "VBCSCompiler.exe.config" file
-  - Change the "keepalive" value from "600" to "86400"
+  - Change the "keepalive" value from "600" to "28800"
+
+- Update the Roslyn inactivity timeout to keep the compiler server hot (option 2)
+  - Navigate to "Advanced system settings"
+  - Under the "Advanced" tab click the "Environment Variables..." button
+  - Add a new user variable called "VBCSCOMPILER_TTL" with a value of "28800"
 
 ===================================================================================================
 Visual Studio Code
