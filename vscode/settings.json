@@ -535,6 +535,8 @@
     "terminal.integrated.cursorWidth": 2,
     "terminal.integrated.fontWeight": "normal",
     "terminal.integrated.fontWeightBold": "normal",
+    "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+    "terminal.integrated.stickyScroll.enabled": false,
     //---------------------------------------------------------------------------------------------
     // Language settings for F#
     //---------------------------------------------------------------------------------------------
@@ -552,6 +554,16 @@
     //---------------------------------------------------------------------------------------------
     // Language settings for JSON
     //---------------------------------------------------------------------------------------------
+    "[jsonc]": {
+        "editor.tabSize": 4,
+        "files.insertFinalNewline": true,
+        "files.trimFinalNewlines": true,
+    },
+    "[json]": {
+        "editor.tabSize": 2,
+        "files.insertFinalNewline": true,
+        "files.trimFinalNewlines": true,
+    },
     "json.format.keepLines": false,
     //---------------------------------------------------------------------------------------------
     // Language settings for HTML
