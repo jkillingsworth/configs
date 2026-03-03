@@ -76,6 +76,11 @@
         "command": "editor.action.formatSelection",
         "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
     },
+    {
+        "key": "ctrl+e ctrl+d",
+        "command": "notebook.formatCell",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && inCompositeEditor && notebookEditable && !editorReadonly && activeEditor == 'workbench.editor.notebook'"
+    },
     //---------------------------------------------------------------------------------------------
     // Cursor select
     //---------------------------------------------------------------------------------------------

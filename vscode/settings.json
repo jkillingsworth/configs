@@ -547,6 +547,12 @@
     "FSharp.pipelineHints.enabled": false,
     "FSharp.showExplorerOnStartup": false,
     //---------------------------------------------------------------------------------------------
+    // Language settings for Python
+    //---------------------------------------------------------------------------------------------
+    "autopep8.args": [
+        "--ignore=E501"
+    ],
+    //---------------------------------------------------------------------------------------------
     // Language settings for PowerShell
     //---------------------------------------------------------------------------------------------
     "powershell.codeFormatting.openBraceOnSameLine": false,
@@ -557,12 +563,12 @@
     "[jsonc]": {
         "editor.tabSize": 4,
         "files.insertFinalNewline": true,
-        "files.trimFinalNewlines": true,
+        "files.trimFinalNewlines": true
     },
     "[json]": {
         "editor.tabSize": 2,
         "files.insertFinalNewline": true,
-        "files.trimFinalNewlines": true,
+        "files.trimFinalNewlines": true
     },
     "json.format.keepLines": false,
     //---------------------------------------------------------------------------------------------
