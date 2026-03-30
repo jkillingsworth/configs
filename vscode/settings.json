@@ -4,7 +4,7 @@
     //---------------------------------------------------------------------------------------------
     "editor.semanticHighlighting.enabled": true,
     "editor.semanticTokenColorCustomizations": {
-        "[Default Dark+]": {
+        "[Dark+]": {
             "rules": {
                 //-----------------------------------------------------------------------
                 // General case for all languages
@@ -43,7 +43,7 @@
     // Color customization for editor (syntax tokens)
     //---------------------------------------------------------------------------------------------
     "editor.tokenColorCustomizations": {
-        "[Default Dark+]": {
+        "[Dark+]": {
             "comments": "#606060",
             "functions": "#d4d4d4",
             "strings": "#c080c0",
@@ -414,7 +414,7 @@
     // Color customization for workbench
     //---------------------------------------------------------------------------------------------
     "workbench.colorCustomizations": {
-        "[Default Dark+]": {
+        "[Dark+]": {
             //---------------------------------------------------------------------------
             // Selection highlights for menus and lists
             //---------------------------------------------------------------------------
@@ -513,19 +513,22 @@
     "editor.renderLineHighlight": "none",
     "editor.renderWhitespace": "none",
     "editor.roundedSelection": false,
+    "editor.stickyScroll.enabled": false,
     "editor.tabSize": 4,
     "editor.wordWrap": "off",
     //---------------------------------------------------------------------------------------------
     // General settings for workbench
     //---------------------------------------------------------------------------------------------
-    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "Dark+",
     "workbench.commandPalette.history": 0,
     "workbench.editor.decorations.colors": false,
     "workbench.editor.openPositioning": "last",
     "workbench.iconTheme": "vs-minimal",
+    "workbench.panel.defaultLocation": "right",
     "workbench.sideBar.location": "right",
     "workbench.startupEditor": "none",
     "workbench.tree.indent": 20,
+    "workbench.editor.useModal": "off",
     //---------------------------------------------------------------------------------------------
     // General settings for terminal
     //---------------------------------------------------------------------------------------------
@@ -535,8 +538,10 @@
     "terminal.integrated.cursorWidth": 2,
     "terminal.integrated.fontWeight": "normal",
     "terminal.integrated.fontWeightBold": "normal",
+    "terminal.integrated.rightClickBehavior": "default",
     "terminal.integrated.shellIntegration.decorationsEnabled": "never",
     "terminal.integrated.stickyScroll.enabled": false,
+    "terminal.integrated.tabs.enabled": false,
     //---------------------------------------------------------------------------------------------
     // Language settings for F#
     //---------------------------------------------------------------------------------------------
@@ -550,7 +555,7 @@
     // Language settings for Python
     //---------------------------------------------------------------------------------------------
     "autopep8.args": [
-        "--ignore=E265,E302,E305,E501",
+        "--ignore=E265,E302,E305,E501"
     ],
     //---------------------------------------------------------------------------------------------
     // Language settings for PowerShell
@@ -618,6 +623,7 @@
     //---------------------------------------------------------------------------------------------
     // Other
     //---------------------------------------------------------------------------------------------
+    "chat.disableAIFeatures": true,
     "code-eol.crlfCharacter": "↵",
     "code-eol.highlightExtraWhitespace": true,
     "code-eol.newlineCharacter": "↓",
